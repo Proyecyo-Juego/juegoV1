@@ -10,4 +10,14 @@ public abstract class equipamiento {
         this.nombre = nombre;
         this.descripcion = descripcion;
     }
+
+    public int getValor() {
+        return valor;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+    public String getDescripcion() {
+        return descripcion;
+    }
 }
