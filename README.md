@@ -8,4 +8,4 @@ Victor
 
 Elena Megía
 
-Enlace al repositorio: 
+Enlace al repositorio: https://github.com/Proyecyo-Juego/juegoV1
