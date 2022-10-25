@@ -6,6 +6,6 @@ David César Moro Nieto
 
 Victor
 
-Elena Megía
+Elena Megía Cañaveras
 
 Enlace al repositorio: https://github.com/Proyecyo-Juego/juegoV1
