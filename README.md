@@ -4,7 +4,7 @@ Aplicacion creada por:
 
 David César Moro Nieto
 
-Victor
+Victor Navarro Carrillo
 
 Elena Megía Cañaveras
 
