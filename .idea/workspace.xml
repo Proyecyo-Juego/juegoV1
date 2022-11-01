@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/statusModels/Herido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/statusModels/Debilitado.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/statusModels/Debilitado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/equipamiento/arma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/equipamiento/augmentacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/CharacterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/CharacterModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667341461008</updated>
-      <workItem from="1667341463584" duration="2130000" />
+      <workItem from="1667341463584" duration="2706000" />
     </task>
     <servers />
   </component>
