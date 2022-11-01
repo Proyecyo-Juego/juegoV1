@@ -1,11 +1,11 @@
-﻿# Aplicación del juego basado en turnos con spring e hilos.
+﻿﻿# Aplicación del juego basado en turnos con spring e hilos.
 
 Aplicacion creada por:
 
 David César Moro Nieto
 
-Victor
+Victor Navarro Carrillo
 
-Elena Megía
+Elena Megía Cañaveras
 
 Enlace al repositorio: https://github.com/Proyecyo-Juego/juegoV1
