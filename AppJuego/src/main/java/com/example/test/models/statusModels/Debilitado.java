@@ -1,24 +1,24 @@
 package com.example.test.models.statusModels;
 
-import com.example.test.models.CardModel;
+import com.example.test.models.CharacterModel;
 
 public class Debilitado extends StatusModel {
 
-    CardModel cardModel;
+    CharacterModel charModel;
 
-    public Debilitado(CardModel cardModel) {
-        super(cardModel);
-        cardModel.setDamage(cardModel.getDamage() - 1);
+    public Debilitado(CharacterModel charModel) {
+        super(charModel);
+        charModel.setDamage(charModel.getDamage() - 1);
     }
 
     @Override
-    public CardModel getCardModel() {
-        return cardModel;
+    public CharacterModel getCharModel() {
+        return charModel;
     }
 
     @Override
-    public void setCardModel(CardModel cardModel) {
-        this.cardModel = cardModel;
-        cardModel.setDamage(cardModel.getDamage() - 1);
+    public void setCharModel(CharacterModel charModel) {
+        this.charModel = charModel;
+        charModel.setDamage(charModel.getDamage() - 1);
     }
 }

@@ -1,23 +1,21 @@
 package com.example.test.models.statusModels;
 
-import com.example.test.models.CardModel;
+import com.example.test.models.CharacterModel;
 
-import javax.smartcardio.Card;
 
 public abstract class StatusModel {
 
-    CardModel cardModel;
+    CharacterModel charModel;
 
-    public StatusModel(CardModel cardModel) {
-        this.cardModel = cardModel;
+    public StatusModel(CharacterModel cardModel) {
+        this.charModel = charModel;
     }
 
-    public CardModel getCardModel() {
-        return cardModel;
+    public CharacterModel getCharModel() {
+        return charModel;
     }
 
-    public void setCardModel(CardModel cardModel) {
-        this.cardModel = cardModel;
+    public void setCharModel(CharacterModel cardModel) {
+        this.charModel = charModel;
     }
-
 }
