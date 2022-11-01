@@ -2,12 +2,17 @@ package com.example.test.models;
 
 import java.util.ArrayList;
 
+import com.example.test.models.equipamiento.arma;
+import com.example.test.models.equipamiento.augmentacion;
+
 public class CharacterModel {
 
     private String name;
     private Long health;
     private Long damage;
     private CharacterModel characterModelObjetivo;
+    private arma armaEquipada;
+    private ArrayList<augmentacion> augmentacionesEquipadas;
 
     private ArrayList<MovementModel> movementSet;
 
