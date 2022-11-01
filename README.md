@@ -1,4 +1,4 @@
-﻿﻿# Aplicación del juego basado en turnos con spring e hilos.
+# Aplicación del juego basado en turnos con spring e hilos.
 
 Aplicacion creada por:
 
