@@ -2,13 +2,12 @@ package com.example.test.models.statusModels;
 
 import com.example.test.models.CharacterModel;
 
-public class Debilitado extends StatusModel {
-
+public class Herido extends StatusModel{
     CharacterModel charModel;
 
-    public Debilitado(CharacterModel charModel) {
+    public Herido(CharacterModel charModel) {
         super(charModel);
-        charModel.setHealth(0L);
+        charModel.setHealth(charModel.getHealth() - 1);
     }
 
     @Override
@@ -22,3 +21,4 @@ public class Debilitado extends StatusModel {
         charModel.setDamage(charModel.getDamage() - 1);
     }
 }
+
