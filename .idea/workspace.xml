@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/ranking/Equipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/ranking/Ranking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/ranking.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/ranking/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/ranking/Ranking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/ranking/Equipo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/ranking/Ranking.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,8 +80,16 @@
       <option name="presentableId" value="Default" />
       <updated>1667341461008</updated>
       <workItem from="1667341463584" duration="714000" />
-      <workItem from="1670671847756" duration="784000" />
+      <workItem from="1670671847756" duration="2631000" />
     </task>
+    <task id="LOCAL-00001" summary="introduciendo ranking">
+      <created>1670672662062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670672662062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="introduciendo ranking" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduciendo ranking" />
   </component>
 </project>
