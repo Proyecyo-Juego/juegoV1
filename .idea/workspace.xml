@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AppJuego/Test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/equipamiento/equipamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/equipamiento/equipamiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/statusModels/Debilitado.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/statusModels/Debilitado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/statusModels/StatusModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/statusModels/StatusModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/ranking/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/ranking/Ranking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +36,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/david/IdeaProjects/juegoV1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Test" />
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <selectedOptions>
+        <option name="spring.boot.profiles" visible="false" />
+      </selectedOptions>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.test.TestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667341461008</updated>
       <workItem from="1667341463584" duration="714000" />
+      <workItem from="1670671847756" duration="784000" />
     </task>
     <servers />
   </component>
