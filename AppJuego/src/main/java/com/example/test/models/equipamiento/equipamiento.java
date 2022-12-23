@@ -15,6 +15,11 @@ public abstract class equipamiento {
         this.descripcion = descripcion;
         this.habilidad = habilidad;
     }
+    public equipamiento(int valor, String nombre, String descripcion) {
+        this.valor = valor;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+    }
 
     public int getValor() {
         return valor;
