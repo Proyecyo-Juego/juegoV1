@@ -31,6 +31,7 @@ public UIHome() {
             if (a == JOptionPane.YES_OPTION) {
                 //Cerrado de sesion confirmado, destruyendo ventana actual
                 //HomePanel.removeAll();
+                JFrame.getWindows()[0].dispose();
                 dispose();
                 UILogin obj = new UILogin();
                 obj.setTitle("Login");

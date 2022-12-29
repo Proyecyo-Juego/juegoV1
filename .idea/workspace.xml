@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="masUI">
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/escenario/backgrounds/ciudad8bit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/escenario/escenario.java" afterDir="false" />
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="escenario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" afterDir="false" />
@@ -156,7 +154,7 @@
       <workItem from="1671798843280" duration="2086000" />
       <workItem from="1671801632010" duration="950000" />
       <workItem from="1672245867827" duration="623000" />
-      <workItem from="1672323748249" duration="8822000" />
+      <workItem from="1672323748249" duration="9828000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -193,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672337984131</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="escenario">
+      <created>1672343152388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672343152388</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +221,8 @@
     <MESSAGE value="CardModel Basico para que compile" />
     <MESSAGE value="UI empezada" />
     <MESSAGE value="masUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="masUI" />
+    <MESSAGE value="escenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="escenario" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
