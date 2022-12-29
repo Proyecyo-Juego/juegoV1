@@ -15,7 +15,7 @@ public class UIHome extends JFrame {
     public static void main(String[] args) {
         JFrame frame = new JFrame("UIHome");
         frame.setContentPane(new UIHome().HomePanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
 
@@ -28,18 +28,15 @@ public UIHome() {
             System.out.println("Logout");
             JButton btnNewButton = new JButton("Logout");
             int a = JOptionPane.showConfirmDialog(btnNewButton, "Are you sure?");
-            // JOptionPane.setRootFrame(null);
             if (a == JOptionPane.YES_OPTION) {
+                //Cerrado de sesion confirmado, destruyendo ventana actual
+                //HomePanel.removeAll();
                 dispose();
                 UILogin obj = new UILogin();
                 obj.setTitle("Login");
                 obj.setVisible(true);
             }
-            dispose();
-            UILogin obj = new UILogin();
 
-            obj.setTitle("Login");
-            obj.setVisible(true);
 
         }
     });

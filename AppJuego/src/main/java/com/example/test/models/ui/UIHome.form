@@ -5,7 +5,9 @@
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
-    <properties/>
+    <properties>
+      <preferredSize width="1014" height="597"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="32d88" class="javax.swing.JButton" binding="LogoutButton">
