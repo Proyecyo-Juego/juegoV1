@@ -4,37 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="CardModel Basico para que compile">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIMain.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UserHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/static/js/8bitlogo.jpg" afterDir="false" />
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="UI empezada">
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/TestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/statusModels/StatusModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/statusModels/StatusModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIMain.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIMain.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UserHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UserHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/TestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/TestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/authentication/ManagerUserSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/authentication/ManagerUserSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/LoginData.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/LoginData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/RegistroData.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/RegistroData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/exception/UsuarioNoLogeadoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/exception/UsuarioNoLogeadoException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/BoardModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/BoardModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/CharacterModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/CharacterModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/MovementModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/MovementModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PlayerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PlayerModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/equipamiento/arma.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/equipamiento/arma.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/equipamiento/augmentacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/equipamiento/augmentacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/equipamiento/equipamiento.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/equipamiento/equipamiento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/statusModels/Debilitado.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/statusModels/Debilitado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/statusModels/StatusModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/statusModels/StatusModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/service/UserService$LoginStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/service/UserService$LoginStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/service/UsuarioServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/service/UsuarioServiceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/TestApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/TestApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/UsuarioServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/UsuarioServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/UsuarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/UsuarioTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/UsuarioWebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/UsuarioWebTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +110,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TestApplication">
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="juegoV1" />
       <method v="2">
@@ -176,7 +159,7 @@
       <workItem from="1671798843280" duration="2086000" />
       <workItem from="1671801632010" duration="950000" />
       <workItem from="1672245867827" duration="623000" />
-      <workItem from="1672323748249" duration="3212000" />
+      <workItem from="1672323748249" duration="6496000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -199,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672325461123</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UI empezada">
+      <created>1672334515582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672334515582</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +210,8 @@
     <MESSAGE value="introduciendo ranking" />
     <MESSAGE value="no tengo nidea de como, pero ahora me reconoce spring" />
     <MESSAGE value="CardModel Basico para que compile" />
-    <option name="LAST_COMMIT_MESSAGE" value="CardModel Basico para que compile" />
+    <MESSAGE value="UI empezada" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI empezada" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

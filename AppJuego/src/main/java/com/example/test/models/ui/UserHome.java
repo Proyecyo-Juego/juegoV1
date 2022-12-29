@@ -1,21 +1,14 @@
 package com.example.test.models.ui;
 
-import java.awt.Color;
-import java.awt.EventQueue;
-import java.awt.Font;
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.UIManager;
-import javax.swing.border.EmptyBorder;
-
 public class UserHome extends JFrame {
 
-    private static final long serialVersionUID = 1 L;
+    private static final long serialVersionUID = 1L ;
     private JPanel contentPane;
 
     /**
@@ -64,18 +57,20 @@ public class UserHome extends JFrame {
                     obj.setTitle("Student-Login");
                     obj.setVisible(true);
                 }
-                dispose();
-                UILogin obj = new UILogin();
+                //dispose();
+                //UILogin obj = new UILogin();
 
-                obj.setTitle("Student-Login");
-                obj.setVisible(true);
+                //obj.setTitle("Student-Login");
+                //obj.setVisible(true);
 
             }
         });
-        // Por si queremos añadir un boton de cambiar contraseña
-        /*
+
+
         btnNewButton.setBounds(247, 118, 491, 114);
         contentPane.add(btnNewButton);
+        // Por si queremos añadir un boton de cambiar contraseña
+        /*
         JButton button = new JButton("Change-password\r\n");
         button.setBackground(UIManager.getColor("Button.disabledForeground"));
         button.addActionListener(new ActionListener() {

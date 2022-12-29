@@ -5,7 +5,10 @@
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-16509375"/>
+      <font name="OCR A Extended"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="1e94e" class="javax.swing.JLabel">

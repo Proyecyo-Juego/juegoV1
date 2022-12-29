@@ -1,24 +1,11 @@
 package com.example.test.models.ui;
 
-import java.awt.Color;
-import java.awt.EventQueue;
-import java.awt.Font;
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
-import javax.swing.border.EmptyBorder;
+import java.sql.*;
 
 public class UILogin extends JFrame {
 
@@ -123,8 +110,25 @@ public class UILogin extends JFrame {
 
         contentPane.add(btnNewButton);
 
+        btnNewButton = new JButton("Invitado");
+        btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 26));
+        btnNewButton.setBounds(545, 492, 162, 73);
+        btnNewButton.addActionListener(new ActionListener() {
+
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+                UserHome ah = new UserHome("Invitado");
+                ah.setTitle("Welcome");
+                ah.setVisible(true);
+                JOptionPane.showMessageDialog(btnNewButton, "Login as Invitado");
+            }
+        });
+
+        contentPane.add(btnNewButton);
+
         label = new JLabel("");
         label.setBounds(0, 0, 1008, 562);
         contentPane.add(label);
     }
+
 }
