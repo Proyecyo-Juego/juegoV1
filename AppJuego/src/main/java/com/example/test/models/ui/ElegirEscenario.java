@@ -6,13 +6,16 @@ import java.awt.event.ActionListener;
 
 public class ElegirEscenario {
     private JPanel ElegirPanel;
-    private JLabel Escenario2;
-    private JLabel Escenario3;
-    private JLabel Escenario4;
     //private JLabel ImageLogo;
     private JButton Volver;
     private JPanel Panel1;
     private JLabel Imagen1;
+    private JPanel Panel2;
+    private JLabel Imagen2;
+    private JPanel Panel3;
+    private JLabel Imagen3;
+    private JPanel Panel4;
+    private JLabel Imagen4;
 
     private ImageIcon icon;
 
@@ -44,10 +47,13 @@ public class ElegirEscenario {
     private void createUIComponents() {
         // TODO: place custom component creation code here
 
-        //Imagen1 = new JLabel(new ImageIcon("fondo.png","Ciudad 1"));
-        ImageIcon icon = new ImageIcon("fondo.png");
+        //ImageIcon icon = new ImageIcon("fondo.png");
 
-        Imagen1 = new JLabel(icon);
+        //Imagen1 = new JLabel(icon);
+        Imagen1 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 1"));
+        Imagen2 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 2"));
+        Imagen3 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 3"));
+        Imagen4 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 4"));
 
 
     }
