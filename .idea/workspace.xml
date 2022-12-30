@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="intentandoañadiricono">
-      <change afterPath="$PROJECT_DIR$/AppJuego/fondoMini.png" afterDir="false" />
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Iconos ahora funcionan en ElegirEscenario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIMain.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,7 @@
       <workItem from="1671801632010" duration="950000" />
       <workItem from="1672245867827" duration="623000" />
       <workItem from="1672323748249" duration="15589000" />
-      <workItem from="1672403714355" duration="5179000" />
+      <workItem from="1672403714355" duration="7132000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672415154926</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Iconos ahora funcionan en ElegirEscenario">
+      <created>1672416309725</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672416309725</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +256,8 @@
     <MESSAGE value="dispose ahora funciona en UIHome" />
     <MESSAGE value="UI" />
     <MESSAGE value="intentandoañadiricono" />
-    <option name="LAST_COMMIT_MESSAGE" value="intentandoañadiricono" />
+    <MESSAGE value="Iconos ahora funcionan en ElegirEscenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iconos ahora funcionan en ElegirEscenario" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
