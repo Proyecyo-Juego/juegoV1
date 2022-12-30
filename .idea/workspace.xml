@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="dispose ahora funciona en UIHome">
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" afterDir="false" />
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="UI">
+      <change afterPath="$PROJECT_DIR$/AppJuego/fondo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
     "last_directory_selection": "C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/src/main/java/com/example/test",
-    "last_opened_file_path": "C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/src/main/java/com/example/test/escenario/backgrounds",
+    "last_opened_file_path": "C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,6 +92,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\java\com\example\test\escenario\backgrounds" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\resources\static\js" />
     </key>
@@ -157,7 +156,8 @@
       <workItem from="1671798843280" duration="2086000" />
       <workItem from="1671801632010" duration="950000" />
       <workItem from="1672245867827" duration="623000" />
-      <workItem from="1672323748249" duration="15268000" />
+      <workItem from="1672323748249" duration="15589000" />
+      <workItem from="1672403714355" duration="3658000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672356347661</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UI">
+      <created>1672361897167</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672361897167</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +240,8 @@
     <MESSAGE value="masUI" />
     <MESSAGE value="escenario" />
     <MESSAGE value="dispose ahora funciona en UIHome" />
-    <option name="LAST_COMMIT_MESSAGE" value="dispose ahora funciona en UIHome" />
+    <MESSAGE value="UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
