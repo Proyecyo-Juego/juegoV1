@@ -30,6 +30,8 @@ public class UILogin extends JFrame {
                 }
             }
         });
+
+
     }
 
     /**
@@ -118,10 +120,7 @@ public class UILogin extends JFrame {
             public void actionPerformed(ActionEvent e) {
 
                 dispose();
-                UserHome ah = new UserHome("Invitado");
-                ah.setTitle("Welcome");
-                ah.setVisible(true);
-                JOptionPane.showMessageDialog(btnNewButton, "Login as Invitado");
+                new UIHome().main(null);
 
             }
         });

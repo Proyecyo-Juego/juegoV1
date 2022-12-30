@@ -5,7 +5,7 @@ import com.example.test.escenario.escenario;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class ElegirEscenario {
+public class ElegirEscenario extends JFrame {
     private JPanel ElegirPanel;
     //private JLabel ImageLogo;
     private JButton Volver;
@@ -20,6 +20,8 @@ public class ElegirEscenario {
 
     private ImageIcon icon;
 
+    private static final long serialVersionUID = 1L;
+
 
 
     public ElegirEscenario() {
@@ -30,7 +32,7 @@ public class ElegirEscenario {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //Volver a la ventana anterior
-
+                SwingUtilities.getWindowAncestor(ElegirPanel).dispose();
                 new UIHome().main(null);
             }
         });
@@ -113,11 +115,12 @@ public class ElegirEscenario {
         }
         System.out.println("Escenario elegido: " + escena.getNombre());
 
-        ElegirPanel.setVisible(false);
+        SwingUtilities.getWindowAncestor(ElegirPanel).dispose();
+
+
 
 
         //Abrir ventana de juego
-
 
 
     }
