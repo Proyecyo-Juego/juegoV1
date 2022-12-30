@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Elegir Escenario eventlisteners">
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Dispose arreglado">
+      <change afterPath="$PROJECT_DIR$/AppJuego/David.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirPersonaje.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirPersonaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +95,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego" />
+      <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\java\com\example\test\models\ui" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\java\com\example\test\escenario\backgrounds" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\resources\static\js" />
     </key>
@@ -157,7 +160,7 @@
       <workItem from="1671801632010" duration="950000" />
       <workItem from="1672245867827" duration="623000" />
       <workItem from="1672323748249" duration="15589000" />
-      <workItem from="1672403714355" duration="15656000" />
+      <workItem from="1672403714355" duration="17649000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -236,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672420283039</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Dispose arreglado">
+      <created>1672435382283</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672435382283</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +275,8 @@
     <MESSAGE value="intentandoañadiricono" />
     <MESSAGE value="Iconos ahora funcionan en ElegirEscenario" />
     <MESSAGE value="Elegir Escenario eventlisteners" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elegir Escenario eventlisteners" />
+    <MESSAGE value="Dispose arreglado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dispose arreglado" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

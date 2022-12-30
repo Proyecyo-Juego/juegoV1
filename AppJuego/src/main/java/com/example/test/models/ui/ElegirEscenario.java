@@ -3,7 +3,10 @@ package com.example.test.models.ui;
 import com.example.test.escenario.escenario;
 
 import javax.swing.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class ElegirEscenario extends JFrame {
     private JPanel ElegirPanel;
@@ -24,7 +27,10 @@ public class ElegirEscenario extends JFrame {
 
 
 
+
     public ElegirEscenario() {
+
+
 
 
 
@@ -78,9 +84,6 @@ public class ElegirEscenario extends JFrame {
     private void createUIComponents() {
         // TODO: place custom component creation code here
 
-        //ImageIcon icon = new ImageIcon("fondo.png");
-
-        //Imagen1 = new JLabel(icon);
         Imagen1 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 1"));
         Imagen2 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 2"));
         Imagen3 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 3"));
@@ -120,7 +123,8 @@ public class ElegirEscenario extends JFrame {
 
 
 
-        //Abrir ventana de juego
+        //Abrir ventana de elegir personaje
+        new ElegirPersonaje().main(null);
 
 
     }

@@ -17,18 +17,6 @@ public class UIHome extends JFrame {
     private static final long serialVersionUID = 1L;
 
     public static void main(String[] args) {
-        /*
-        new UIHome();
-
-        JFrame frame = new JFrame("UIHome");
-        frame.setContentPane(new UIHome().HomePanel);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-
-         */
-
-
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
@@ -44,10 +32,6 @@ public class UIHome extends JFrame {
                 }
             }
         });
-
-
-
-
 
     }
 public UIHome() {
