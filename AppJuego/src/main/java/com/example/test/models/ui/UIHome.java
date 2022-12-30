@@ -11,6 +11,8 @@ import java.awt.event.ActionListener;
 public class UIHome extends JFrame {
     private JButton LogoutButton;
     private JPanel HomePanel;
+    private JButton rankingButton;
+    private JButton JugarButton;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("UIHome");
@@ -32,7 +34,7 @@ public UIHome() {
                 //Cerrado de sesion confirmado, destruyendo ventana actual
                 //HomePanel.removeAll();
                 JFrame.getWindows()[0].dispose();
-                dispose();
+
                 UILogin obj = new UILogin();
                 obj.setTitle("Login");
                 obj.setVisible(true);
@@ -43,5 +45,33 @@ public UIHome() {
     });
 
 
+    rankingButton.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            //Abrir ventana de ranking
+            //Aun no implementado
+            /*
+            System.out.println("Ranking");
+            JFrame frame = new JFrame("UIRanking");
+            frame.setContentPane(new UIRanking().RankingPanel);
+            frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+            frame.pack();
+            frame.setVisible(true);
+             */
+        }
+    });
+    JugarButton.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            //Abrir ventana de juego
+
+            System.out.println("Jugar");
+            JFrame.getWindows()[0].dispose();
+            new ElegirEscenario().main(null);
+
+
+
+        }
+    });
 }
 }

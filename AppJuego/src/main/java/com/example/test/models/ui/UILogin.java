@@ -116,11 +116,13 @@ public class UILogin extends JFrame {
         btnNewButton.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
+
                 dispose();
                 UserHome ah = new UserHome("Invitado");
                 ah.setTitle("Welcome");
                 ah.setVisible(true);
                 JOptionPane.showMessageDialog(btnNewButton, "Login as Invitado");
+
             }
         });
 
