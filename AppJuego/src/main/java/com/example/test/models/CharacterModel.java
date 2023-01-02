@@ -1,9 +1,9 @@
 package com.example.test.models;
 
-import java.util.ArrayList;
-
 import com.example.test.models.equipamiento.arma;
 import com.example.test.models.equipamiento.augmentacion;
+
+import java.util.ArrayList;
 
 public class CharacterModel {
 
