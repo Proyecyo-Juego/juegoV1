@@ -51,19 +51,19 @@ public class UIController {
         UIHome uiHome = new UIHome(cards);
         JPanel homePanel = uiHome.getPanel();
 
-        JPanel Card3 = new JPanel();
-        Card3.add(new ElegirEscenario().ElegirPanel);
-        JPanel Card4 = new JPanel();
-        Card4.add(new ElegirPersonaje().ElegirPanel);
-        //JPanel Card3 = new ElegirEscenario().ElegirPanel;
-        //JPanel Card4 = new ElegirPersonaje().ElegirPanel;
+        ElegirEscenario elegirEscenario = new ElegirEscenario(cards);
+        JPanel elegirEscenarioPanel = elegirEscenario.getPanel();
+
+        ElegirPersonaje elegirPersonaje = new ElegirPersonaje(cards);
+        JPanel elegirPersonajePanel = elegirPersonaje.getPanel();
+
 
 
 
         cards.add(loginPanel, "Login");
         cards.add(homePanel, "Home");
-        cards.add(Card3, "ElegirEscenario");
-        cards.add(Card4, "ElegirPersonaje");
+        cards.add(elegirEscenarioPanel, "ElegirEscenario");
+        cards.add(elegirPersonajePanel, "ElegirPersonaje");
 
         mainFrame.add(cards);
         mainFrame.pack();

@@ -4,24 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Dispose arreglado">
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/CardLayoutExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/UIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/LoginUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/LoginUI.java" afterDir="false" />
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Por primera vez cardlayout empieza a funcionar, ahora cambia UIs utilizando la misma ventana">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/Pelea.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/Pelea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/CardLayoutExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/UIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/UIController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirPersonaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirPersonaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/BoardModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/BoardModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/CharacterModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/CharacterModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PlayerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PlayerModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/equipamiento/augmentacion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/statusModels/Debilitado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/statusModels/StatusModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/statusModels/StatusModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UserHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/CardLayoutExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/UIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/UIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UILogin$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UILogin$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UserHome$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UserHome$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UserHome.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672435382283</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Por primera vez cardlayout empieza a funcionar, ahora cambia UIs utilizando la misma ventana">
+      <created>1672702549689</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672702549689</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +306,8 @@
     <MESSAGE value="Iconos ahora funcionan en ElegirEscenario" />
     <MESSAGE value="Elegir Escenario eventlisteners" />
     <MESSAGE value="Dispose arreglado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dispose arreglado" />
+    <MESSAGE value="Por primera vez cardlayout empieza a funcionar, ahora cambia UIs utilizando la misma ventana" />
+    <option name="LAST_COMMIT_MESSAGE" value="Por primera vez cardlayout empieza a funcionar, ahora cambia UIs utilizando la misma ventana" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

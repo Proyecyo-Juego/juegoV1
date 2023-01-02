@@ -1,8 +1,7 @@
 package com.example.test.models.ui;
 
-import com.example.test.controllers.UIController;
-
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -36,7 +35,9 @@ public UIHome(JPanel cards) {
             obj.setTitle("Login");
             obj.setVisible(true);
              */
-            UIController.getInstance().changeScreen("Login");
+            //UIController.getInstance().changeScreen("Login");
+            CardLayout cl = (CardLayout)frame.getLayout();
+            cl.show(frame, "Login");
         }
 
 
@@ -57,9 +58,8 @@ public UIHome(JPanel cards) {
             //Abrir ventana de juego
 
             System.out.println("Jugar");
-
-            //dispose();
-            UIController.getInstance().changeScreen("ElegirEscenario");
+            CardLayout cl = (CardLayout)frame.getLayout();
+            cl.show(frame, "ElegirEscenario");
 
 
 

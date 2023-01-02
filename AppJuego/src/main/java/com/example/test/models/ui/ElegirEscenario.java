@@ -3,12 +3,15 @@ package com.example.test.models.ui;
 import com.example.test.escenario.Escenario;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class ElegirEscenario extends JFrame {
+
+    private JPanel cards;
     public JPanel ElegirPanel;
     //private JLabel ImageLogo;
     private JButton Volver;
@@ -28,9 +31,9 @@ public class ElegirEscenario extends JFrame {
 
 
 
-    public ElegirEscenario() {
+    public ElegirEscenario(JPanel cards) {
 
-
+        this.cards = cards;
 
 
 
@@ -38,8 +41,8 @@ public class ElegirEscenario extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //Volver a la ventana anterior
-                SwingUtilities.getWindowAncestor(ElegirPanel).dispose();
-                //new UIHome().main(null);
+                CardLayout cl = (CardLayout)cards.getLayout();
+                cl.show(cards, "Home");
             }
         });
 
@@ -73,13 +76,6 @@ public class ElegirEscenario extends JFrame {
         });
     }
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("ElegirEscenario");
-        frame.setContentPane(new ElegirEscenario().ElegirPanel);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-    }
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
@@ -117,15 +113,12 @@ public class ElegirEscenario extends JFrame {
                 break;
         }
         System.out.println("Escenario elegido: " + escena.getNombre());
-
-        SwingUtilities.getWindowAncestor(ElegirPanel).dispose();
-
-
-
-
         //Abrir ventana de elegir personaje
-        new ElegirPersonaje().main(null);
+        CardLayout cl = (CardLayout)cards.getLayout();
+        cl.show(cards, "ElegirPersonaje");
 
-
+    }
+    public JPanel getPanel(){
+        return ElegirPanel;
     }
 }

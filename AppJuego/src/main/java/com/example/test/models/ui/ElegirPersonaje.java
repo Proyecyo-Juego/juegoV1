@@ -12,6 +12,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class ElegirPersonaje {
+
+    private JPanel cards;
     public JPanel JuegoPanel;
     public JPanel ElegirPanel;
     private JButton Volver;
@@ -26,23 +28,16 @@ public class ElegirPersonaje {
 
     private static final long serialVersionUID = 1L;
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("ElegirPersonaje");
-        frame.setContentPane(new ElegirPersonaje().ElegirPanel);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-    }
 
+    public ElegirPersonaje(JPanel cards) {
 
-
-    public ElegirPersonaje() {
+        this.cards = cards;
         Volver.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //Volver a la ventana anterior
-                SwingUtilities.getWindowAncestor(ElegirPanel).dispose();
-                //new UIHome().main(null);
+                CardLayout cl = (CardLayout)cards.getLayout();
+                cl.show(cards, "Home");
             }
         });
         Panel1.addMouseListener(new MouseAdapter() {
@@ -106,6 +101,10 @@ public class ElegirPersonaje {
                 //Personaje 4
                 break;
         }
+        //Todo: Cambiar a la ventana de juego y pasar el personaje elegido
+    }
 
+    public JPanel getPanel() {
+        return ElegirPanel;
     }
 }

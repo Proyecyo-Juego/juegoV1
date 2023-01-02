@@ -97,9 +97,9 @@ public class UILogin extends JFrame {
                     ResultSet rs = st.executeQuery();
                     if (rs.next()) {
                         dispose();
-                        UserHome ah = new UserHome(userName);
-                        ah.setTitle("Welcome");
-                        ah.setVisible(true);
+                        //UserHome ah = new UserHome(userName);
+                        //ah.setTitle("Welcome");
+                        //ah.setVisible(true);
                         JOptionPane.showMessageDialog(btnNewButton, "You have successfully logged in");
                     } else {
                         JOptionPane.showMessageDialog(btnNewButton, "Wrong Username & Password");
