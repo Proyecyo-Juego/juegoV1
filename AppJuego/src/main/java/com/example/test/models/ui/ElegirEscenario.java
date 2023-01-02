@@ -9,7 +9,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class ElegirEscenario extends JFrame {
-    private JPanel ElegirPanel;
+    public JPanel ElegirPanel;
     //private JLabel ImageLogo;
     private JButton Volver;
     private JPanel Panel1;
@@ -39,7 +39,7 @@ public class ElegirEscenario extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 //Volver a la ventana anterior
                 SwingUtilities.getWindowAncestor(ElegirPanel).dispose();
-                new UIHome().main(null);
+                //new UIHome().main(null);
             }
         });
 

@@ -12,7 +12,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class ElegirPersonaje {
-    private JPanel ElegirPanel;
+    public JPanel JuegoPanel;
+    public JPanel ElegirPanel;
     private JButton Volver;
     private JPanel Panel1;
     private JLabel Imagen1;
@@ -41,7 +42,7 @@ public class ElegirPersonaje {
             public void actionPerformed(ActionEvent e) {
                 //Volver a la ventana anterior
                 SwingUtilities.getWindowAncestor(ElegirPanel).dispose();
-                new UIHome().main(null);
+                //new UIHome().main(null);
             }
         });
         Panel1.addMouseListener(new MouseAdapter() {

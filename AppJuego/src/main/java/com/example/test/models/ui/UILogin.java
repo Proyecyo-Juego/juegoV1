@@ -120,7 +120,7 @@ public class UILogin extends JFrame {
             public void actionPerformed(ActionEvent e) {
 
                 dispose();
-                new UIHome().main(null);
+                //new UIHome().main(null);
 
             }
         });

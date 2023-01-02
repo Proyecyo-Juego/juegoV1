@@ -21,8 +21,9 @@ public class Pelea {
         while (player1.getNumberOfCharactersAlive() > 0 && player2.getNumberOfCharactersAlive() > 0) {
 
             // Simular el turno de cada jugador
-            simularTurno(player1, player2);
-            simularTurno(player2, player1);
+            //simularTurno(player1, player2);
+            //simularTurno(player2, player1);
+            //Comentado fuera porque no esta implementado y no permite compilar
         }
 
         // Determinar quién ganó la pelea
