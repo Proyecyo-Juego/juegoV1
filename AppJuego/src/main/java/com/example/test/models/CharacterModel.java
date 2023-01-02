@@ -1,7 +1,6 @@
 package com.example.test.models;
 
 import com.example.test.models.equipamiento.arma;
-import com.example.test.models.equipamiento.augmentacion;
 
 import java.util.ArrayList;
 
@@ -12,14 +11,16 @@ public class CharacterModel {
     private Long damage;
     private CharacterModel characterModelObjetivo;
     private arma armaEquipada;
-    private ArrayList<augmentacion> augmentacionesEquipadas;
-
     private ArrayList<MovementModel> movementSet;
+    private String status;
 
     public CharacterModel(String name, Long health, CharacterModel characterModelObjetivo) {
         this.name = name;
         this.health = health;
         this.characterModelObjetivo = characterModelObjetivo;
+        this.setArmaEquipada(getArmaEquipada());
+        this.setMovementSet(new ArrayList<>());
+        this.status = "Full Health";
     }
 
     public String getName() {
@@ -46,6 +47,14 @@ public class CharacterModel {
         this.damage = damage;
     }
 
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
     public CharacterModel getCharacterModelObjetivo() {
         return characterModelObjetivo;
     }
@@ -54,18 +63,20 @@ public class CharacterModel {
         this.characterModelObjetivo = characterModelObjetivo;
     }
 
-    public void combat(CharacterModel c){
-        long resta = this.health - c.damage;
-        System.out.println(
-                String.format(("El personaje %s ha hecho %d al personaje %s"), this.name,resta,c.name));
+    public arma getArmaEquipada() {
+        return armaEquipada;
     }
 
-    public String victory(CharacterModel c){
-        if(this.health > c.health){
-            return String.format("El ganador es %s",this.name);
-        }
-        return String.format("El ganador es %s",c.name);
+    public void setArmaEquipada(arma armaEquipada) {
+        this.armaEquipada = armaEquipada;
     }
 
+    public ArrayList<MovementModel> getMovementSet() {
+        return movementSet;
+    }
+
+    public void setMovementSet(ArrayList<MovementModel> movementSet) {
+        this.movementSet = movementSet;
+    }
 
 }

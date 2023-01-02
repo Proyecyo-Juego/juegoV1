@@ -1,6 +1,6 @@
 package com.example.test.models.ui;
 
-import com.example.test.escenario.escenario;
+import com.example.test.escenario.Escenario;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -92,28 +92,28 @@ public class ElegirEscenario extends JFrame {
     }
 
     private void elegirEscenario(int numero){
-        escenario escena;
+        Escenario escena;
 
         switch(numero){
             case 1:
                 //Escenario 1
-                escena = new escenario("ciudad", "AppJuego/fondo.png");
+                escena = new Escenario("ciudad", "AppJuego/fondo.png");
                 break;
             case 2:
                 //Escenario 2
-                escena = new escenario("ciudad", "AppJuego/fondo.png");
+                escena = new Escenario("ciudad", "AppJuego/fondo.png");
                 break;
             case 3:
                 //Escenario 3
-                escena = new escenario("ciudad", "AppJuego/fondo.png");
+                escena = new Escenario("ciudad", "AppJuego/fondo.png");
                 break;
             case 4:
                 //Escenario 4
-                escena = new escenario("ciudad", "AppJuego/fondo.png");
+                escena = new Escenario("ciudad", "AppJuego/fondo.png");
                 break;
             default:
                 //Escenario por defecto
-                escena = new escenario("ciudad", "AppJuego/fondo.png");
+                escena = new Escenario("ciudad", "AppJuego/fondo.png");
                 break;
         }
         System.out.println("Escenario elegido: " + escena.getNombre());

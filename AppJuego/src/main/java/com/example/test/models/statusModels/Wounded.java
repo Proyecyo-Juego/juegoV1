@@ -2,20 +2,22 @@ package com.example.test.models.statusModels;
 
 import com.example.test.models.CharacterModel;
 
-public abstract class StatusModel {
+public class Wounded extends StatusModel {
 
-    CharacterModel characterGeneric;
-
-    public StatusModel(CharacterModel characterGeneric) {
-        this.characterGeneric = characterGeneric;
+    public Wounded (CharacterModel characterGeneric) {
+        super(characterGeneric);
+        characterGeneric.setStatus("Wounded");
     }
 
+    @Override
     public CharacterModel getCharacterModel() {
         return characterGeneric;
     }
 
+    @Override
     public void setCharacterModel(CharacterModel characterGeneric) {
         this.characterGeneric = characterGeneric;
+        characterGeneric.setStatus("Wounded");
     }
 
 }
