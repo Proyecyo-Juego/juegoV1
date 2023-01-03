@@ -1,6 +1,6 @@
 package com.example.test.models;
 
-import com.example.test.escenario.Escenario;
+import com.example.test.models.escenario.Escenario;
 
 public class BoardModel {
 

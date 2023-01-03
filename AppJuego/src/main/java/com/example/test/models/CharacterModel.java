@@ -9,15 +9,16 @@ public class CharacterModel {
     private String name;
     private Long health;
     private Long damage;
-    private CharacterModel characterModelObjetivo;
+    //Porque se autoreferencia? Querias que fuese un singleton?
+    //private CharacterModel characterModelObjetivo;
     private arma armaEquipada;
     private ArrayList<MovementModel> movementSet;
     private String status;
 
-    public CharacterModel(String name, Long health, CharacterModel characterModelObjetivo) {
+    public CharacterModel(String name, Long health) {
         this.name = name;
         this.health = health;
-        this.characterModelObjetivo = characterModelObjetivo;
+        //this.characterModelObjetivo = characterModelObjetivo;
         this.setArmaEquipada(getArmaEquipada());
         this.setMovementSet(new ArrayList<>());
         this.status = "Full Health";
@@ -55,6 +56,7 @@ public class CharacterModel {
         this.status = status;
     }
 
+    /*
     public CharacterModel getCharacterModelObjetivo() {
         return characterModelObjetivo;
     }
@@ -62,6 +64,7 @@ public class CharacterModel {
     public void setCharacterModelObjetivo(CharacterModel characterModelObjetivo) {
         this.characterModelObjetivo = characterModelObjetivo;
     }
+    */
 
     public arma getArmaEquipada() {
         return armaEquipada;

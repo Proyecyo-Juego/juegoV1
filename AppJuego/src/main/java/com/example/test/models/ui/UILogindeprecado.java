@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
 
-public class UILogin extends JFrame {
+public class UILogindeprecado extends JFrame {
 
     private static final long serialVersionUID = 1L;
     private JTextField textField;
@@ -23,7 +23,7 @@ public class UILogin extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    UILogin frame = new UILogin();
+                    UILogindeprecado frame = new UILogindeprecado();
                     frame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -37,7 +37,7 @@ public class UILogin extends JFrame {
     /**
      * Create the frame.
      */
-    public UILogin() {
+    public UILogindeprecado() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(450, 190, 1014, 597);
         setResizable(false);

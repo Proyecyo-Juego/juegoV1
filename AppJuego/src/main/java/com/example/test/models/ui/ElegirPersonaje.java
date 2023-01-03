@@ -1,5 +1,9 @@
 package com.example.test.models.ui;
 
+import com.example.test.controllers.UIController;
+import com.example.test.models.CharacterModel;
+import com.example.test.models.PlayerModel;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -87,21 +91,33 @@ public class ElegirPersonaje {
     }
 
     public void elegirPersonaje(int personaje) {
+        CharacterModel heroe ;
         switch (personaje) {
             case 1:
                 //Personaje 1
+                heroe = new CharacterModel("David", 100L);
                 break;
             case 2:
                 //Personaje 2
+                heroe = new CharacterModel("David", 100L);
                 break;
             case 3:
                 //Personaje 3
+                heroe = new CharacterModel("David", 100L);
                 break;
             case 4:
                 //Personaje 4
+                heroe = new CharacterModel("David", 100L);
+                break;
+            default:
+                heroe = new CharacterModel("David", 100L);
                 break;
         }
-        //Todo: Cambiar a la ventana de juego y pasar el personaje elegido
+        PlayerModel.getInstance().elegirPersonaje(heroe);
+        CardLayout cl = (CardLayout)cards.getLayout();
+        //UIController.getInstance().getPeleaUI().updateEscenario();
+        UIController.getInstance().peleaUI.updateEscenario();
+        cl.show(cards, "Pelea");
     }
 
     public JPanel getPanel() {

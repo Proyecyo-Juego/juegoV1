@@ -11,6 +11,14 @@ public class UIController {
     JFrame mainFrame;
     JPanel cards;
 
+
+    LoginUI loginUI;
+    UIHome uiHome;
+    ElegirEscenario elegirEscenario;
+    ElegirPersonaje elegirPersonaje;
+    public PeleaUI peleaUI;
+
+
     private UIController(){
 
 
@@ -40,17 +48,20 @@ public class UIController {
 
     private void initializeCards(){
 
-        LoginUI loginUI = new LoginUI(cards);
+        loginUI = new LoginUI(cards);
         JPanel loginPanel = loginUI.getPanel();
 
-        UIHome uiHome = new UIHome(cards);
+        uiHome = new UIHome(cards);
         JPanel homePanel = uiHome.getPanel();
 
-        ElegirEscenario elegirEscenario = new ElegirEscenario(cards);
+        elegirEscenario = new ElegirEscenario(cards);
         JPanel elegirEscenarioPanel = elegirEscenario.getPanel();
 
-        ElegirPersonaje elegirPersonaje = new ElegirPersonaje(cards);
+        elegirPersonaje = new ElegirPersonaje(cards);
         JPanel elegirPersonajePanel = elegirPersonaje.getPanel();
+
+        peleaUI = new PeleaUI(cards);
+        JPanel peleaPanel = peleaUI.getPanel();
 
 
 
@@ -59,6 +70,7 @@ public class UIController {
         cards.add(homePanel, "Home");
         cards.add(elegirEscenarioPanel, "ElegirEscenario");
         cards.add(elegirPersonajePanel, "ElegirPersonaje");
+        cards.add(peleaPanel, "Pelea");
 
         mainFrame.add(cards);
         mainFrame.pack();
@@ -71,5 +83,8 @@ public class UIController {
         ((CardLayout)cards.getLayout()).show(cards, screenName);
     }
  */
+    public PeleaUI getPeleaUI() {
+        return peleaUI;
+    }
 
 }

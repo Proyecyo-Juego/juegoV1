@@ -1,6 +1,7 @@
 package com.example.test.models.ui;
 
-import com.example.test.escenario.Escenario;
+import com.example.test.models.PlayerModel;
+import com.example.test.models.escenario.Escenario;
 
 import javax.swing.*;
 import java.awt.*;
@@ -112,6 +113,7 @@ public class ElegirEscenario extends JFrame {
                 escena = new Escenario("ciudad", "AppJuego/fondo.png");
                 break;
         }
+        PlayerModel.getInstance().setEscenario(escena);
         System.out.println("Escenario elegido: " + escena.getNombre());
         //Abrir ventana de elegir personaje
         CardLayout cl = (CardLayout)cards.getLayout();

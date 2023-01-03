@@ -1,4 +1,4 @@
-package com.example.test.escenario;
+package com.example.test.models.escenario;
 
 public class Escenario {
     public String nombre;
@@ -12,11 +12,11 @@ public class Escenario {
     public static Escenario elegirEscena(String escena) {
         switch (escena) {
             case "ciudad":
-                return new Escenario("ciudad", "com/example/test/escenario/backgrounds/ciudad8bit.jpg");
+                return new Escenario("ciudad", "com/example/test/models/escenario/backgrounds/ciudad8bit.jpg");
 
 
             default:
-                return new Escenario("ciudad", "com/example/test/escenario/backgrounds/ciudad8bit.jpg");
+                return new Escenario("ciudad", "com/example/test/models/escenario/backgrounds/ciudad8bit.jpg");
 
 
         }
