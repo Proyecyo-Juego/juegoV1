@@ -28,14 +28,6 @@ public UIHome(JPanel cards) {
         JButton btnNewButton = new JButton("Logout");
         int a = JOptionPane.showConfirmDialog(btnNewButton, "Are you sure?");
         if (a == JOptionPane.YES_OPTION) {
-            //Cerrado de sesion confirmado, destruyendo ventana actual
-            /*
-            SwingUtilities.getWindowAncestor(HomePanel).dispose();
-            UILogin obj = new UILogin();
-            obj.setTitle("Login");
-            obj.setVisible(true);
-             */
-            //UIController.getInstance().changeScreen("Login");
             CardLayout cl = (CardLayout)frame.getLayout();
             cl.show(frame, "Login");
         }
@@ -60,9 +52,6 @@ public UIHome(JPanel cards) {
             System.out.println("Jugar");
             CardLayout cl = (CardLayout)frame.getLayout();
             cl.show(frame, "ElegirEscenario");
-
-
-
 
         }
     });

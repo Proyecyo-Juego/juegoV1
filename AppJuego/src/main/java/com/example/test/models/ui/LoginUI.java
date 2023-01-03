@@ -17,15 +17,7 @@ public class LoginUI {
         addComponents();
 
     }
-    public void addComponents(){/*
-        loginButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("Login");
-                Login();
-            }
-        });
-        */
+    public void addComponents(){
         loginButton.addActionListener(e -> {
             System.out.println("Login");
             Login();
@@ -34,10 +26,10 @@ public class LoginUI {
 
     public void Login(){
         //TODO: login
+        String userName = usernameField.getText();
+        String password = passwordField.getText();
 
 
-        //UIController.getInstance().showCardHomeUI();
-        //UIController.getInstance().changeScreen("Home");
         CardLayout cl = (CardLayout)frame.getLayout();
         cl.show(frame, "Home");
     }

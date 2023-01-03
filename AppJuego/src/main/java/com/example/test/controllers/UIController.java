@@ -35,13 +35,8 @@ public class UIController {
         System.out.println("UIController.main");
 
         UIController uiController = new UIController();
-        //uiController.showLoginUI();
-        uiController.show();
     }
 
-    public void show(){
-        cards.setVisible(true);
-    }
 
     private void initializeCards(){
 
@@ -70,39 +65,11 @@ public class UIController {
         mainFrame.setVisible(true);
     }
 
-    /*
-    public void showLoginUI() {
-        System.out.println("UIController.showLoginUI");
-        mainFrame.setContentPane(new LoginUI().panel1);
-        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        mainFrame.pack();
-        mainFrame.setVisible(true);
-        mainFrame.revalidate();
-        mainFrame.repaint();
-    }
-    public void showHomeUI() {
-        System.out.println("UIController.showHomeUI");
-        mainFrame.setContentPane(new UIHome().HomePanel);
-        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        mainFrame.pack();
-        mainFrame.setVisible(true);
-        mainFrame.revalidate();
-        mainFrame.repaint();
-    }
-
-     */
-
-    public void showCardHomeUI() {
-        System.out.println("UIController.showCardHomeUI");
-        CardLayout cl = (CardLayout)(cards.getLayout());
-        cl.show(cards, "Home");
-
-        //mainFrame.revalidate();
-        //mainFrame.repaint();
-    }
-
+/*
     public void changeScreen(String screenName){
+        System.out.println("UIController.changeScreen: " + screenName);
         ((CardLayout)cards.getLayout()).show(cards, screenName);
     }
+ */
 
 }
