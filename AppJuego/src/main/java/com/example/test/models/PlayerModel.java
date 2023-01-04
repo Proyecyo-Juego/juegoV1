@@ -7,7 +7,6 @@ import java.util.ArrayList;
 public class PlayerModel { //Singeton pattern
 
     private static PlayerModel me = null;
-
     private String name;
     private Integer numberOfCharactersAlive;
     private ArrayList<CharacterModel> team;
