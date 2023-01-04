@@ -1,7 +1,5 @@
 package com.example.test.models;
 
-import com.example.test.models.equipamiento.arma;
-
 import java.util.ArrayList;
 
 public class CharacterModel {
@@ -9,9 +7,7 @@ public class CharacterModel {
     private String name;
     private Long health;
     private Long damage;
-    //Porque se autoreferencia? Querias que fuese un singleton?
-    //private CharacterModel characterModelObjetivo;
-    private arma armaEquipada;
+  //  private arma armaEquipada;
     private ArrayList<MovementModel> movementSet;
     private String status;
 
@@ -19,7 +15,7 @@ public class CharacterModel {
         this.name = name;
         this.health = health;
         //this.characterModelObjetivo = characterModelObjetivo;
-        this.setArmaEquipada(getArmaEquipada());
+        //this.setArmaEquipada(getArmaEquipada());
         this.setMovementSet(new ArrayList<>());
         this.status = "Full Health";
     }
@@ -64,7 +60,7 @@ public class CharacterModel {
     public void setCharacterModelObjetivo(CharacterModel characterModelObjetivo) {
         this.characterModelObjetivo = characterModelObjetivo;
     }
-    */
+
 
     public arma getArmaEquipada() {
         return armaEquipada;
@@ -73,7 +69,7 @@ public class CharacterModel {
     public void setArmaEquipada(arma armaEquipada) {
         this.armaEquipada = armaEquipada;
     }
-
+*/
     public ArrayList<MovementModel> getMovementSet() {
         return movementSet;
     }
