@@ -17,6 +17,15 @@ public class PeleaUI {
     //private JLabel backgroundPelea;
     private JButton returnButton;
     private ImagePanel imagePanel1;
+    private JLabel Hero1Image;
+    private JLabel Hero1Name;
+    private JProgressBar Hero1HpBar1;
+    private JLabel Enemy1Image;
+    private JProgressBar Enemy1HpBar;
+    private JLabel Enemy1Name;
+    private JButton DefendButton;
+    private JButton AttackButton;
+    private JButton button1;
 
     BufferedImage backgroundImage;
 public PeleaUI(JPanel cards) {
