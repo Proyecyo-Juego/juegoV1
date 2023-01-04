@@ -115,8 +115,7 @@ public class ElegirPersonaje {
         }
         PlayerModel.getInstance().elegirPersonaje(heroe);
         CardLayout cl = (CardLayout)cards.getLayout();
-        //UIController.getInstance().getPeleaUI().updateEscenario();
-        UIController.getInstance().peleaUI.updateEscenario();
+        UIController.getInstance().getPeleaUI().updateEscenario();
         cl.show(cards, "Pelea");
     }
 

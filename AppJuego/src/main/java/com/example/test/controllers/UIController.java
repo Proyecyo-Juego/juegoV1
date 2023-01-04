@@ -28,6 +28,7 @@ public class UIController {
         cards = new JPanel(new CardLayout());
         cards.setSize(1024, 512);
         initializeCards();
+        this.me= this;
     }
 
     public static UIController getInstance(){

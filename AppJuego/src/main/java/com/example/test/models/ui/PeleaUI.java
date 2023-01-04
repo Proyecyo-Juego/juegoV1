@@ -1,6 +1,7 @@
 package com.example.test.models.ui;
 
 import com.example.test.models.PlayerModel;
+import com.example.test.models.ui.customPanels.ImagePanel;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -10,18 +11,21 @@ import java.io.File;
 import java.io.IOException;
 
 public class PeleaUI {
+    private final JPanel cards;
     private JPanel panelPelea;
 
     //private JLabel backgroundPelea;
     private JButton returnButton;
+    private ImagePanel imagePanel1;
 
     BufferedImage backgroundImage;
 public PeleaUI(JPanel cards) {
+    this.cards = cards;
     createUIComponents();
 
     returnButton.addActionListener(e -> {
-        CardLayout cl = (CardLayout) cards.getLayout();
-        cl.show(cards, "Home");
+        CardLayout cl = (CardLayout) this.cards.getLayout();
+        cl.show(this.cards, "Home");
     });
 
 
@@ -30,7 +34,18 @@ public PeleaUI(JPanel cards) {
 
     private void createUIComponents() {
 
+        try {
+            backgroundImage = ImageIO.read(new File("AppJuego/fondo.png"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        imagePanel1 = new ImagePanel(new GridLayout(),backgroundImage);
+        //imagePanel1.setLayout(new BorderLayout());
+        //imagePanel1.add(returnButton, BorderLayout.SOUTH);
+        //panelPelea = imagePanel1;
 
+
+/*
         panelPelea = new JPanel() {
             @Override
             protected void paintComponent(Graphics g) {
@@ -38,6 +53,8 @@ public PeleaUI(JPanel cards) {
                 g.drawImage(backgroundImage, 0, 0, this);
             }
         };
+
+ */
 
     }
 
