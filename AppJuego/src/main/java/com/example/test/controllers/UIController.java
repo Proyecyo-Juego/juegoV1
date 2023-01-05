@@ -78,12 +78,6 @@ public class UIController {
         mainFrame.setVisible(true);
     }
 
-/*
-    public void changeScreen(String screenName){
-        System.out.println("UIController.changeScreen: " + screenName);
-        ((CardLayout)cards.getLayout()).show(cards, screenName);
-    }
- */
     public PeleaUI getPeleaUI() {
         return peleaUI;
     }

@@ -54,13 +54,23 @@ public PeleaUI(JPanel cards) {
     //TODO: implementar
         LogMSG.setText(PeleaBasica.getInstance().attackEnemy1());
         updateHPbars();
-        if(PeleaBasica.getInstance().getPlayerTurn()){
+        if(PeleaBasica.getInstance().getPlayerTurn()==false){
             //Ataca la IA
             if (PeleaBasica.getInstance().getEnemy1HP() > 0) {
-                LogMSG.setText(PeleaBasica.getInstance().enemyTurn());
+                System.out.println("Timer de contraataque enemigo iniciado");
+                javax.swing.Timer timer = new javax.swing.Timer(1000, e -> {
+                    PeleaBasica.getInstance().enemyTurn();
+                    updateHPbars();
+                });
+                timer.setRepeats(false);
+                timer.start();
             }
             else {
+                System.out.println("Pelea terminada");
                 LogMSG.setText("Has ganado!");
+                JOptionPane.showMessageDialog(null, "Has ganado!");
+                CardLayout cl = (CardLayout) this.cards.getLayout();
+                cl.show(this.cards, "Home");
             }
         }
     }
@@ -150,6 +160,10 @@ public PeleaUI(JPanel cards) {
         Image imgscaled = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
 
         return new JLabel(new ImageIcon(imgscaled,"David"));
+    }
+
+    public void setLogMSG(String msg){
+        LogMSG.setText(msg);
     }
 
 }

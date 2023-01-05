@@ -1,5 +1,7 @@
 package com.example.test.models;
 
+import com.example.test.controllers.UIController;
+
 import java.util.Random;
 
 public class PeleaBasica {//Pelea basica para el modo de juego 1vs1
@@ -54,12 +56,15 @@ public class PeleaBasica {//Pelea basica para el modo de juego 1vs1
         message += "Enemy 1 for " + randomDamage + " damage";
         Enemy1HP -= randomDamage;
         AttackSound.SonidoAtaque();
+        PlayerTurn = false;
         return message;
     }
 
-    public String enemyTurn(){
+
+    public Void enemyTurn(){
         if (this.PlayerTurn){
-            return "No es tu turno!";
+            UIController.getInstance().peleaUI.setLogMSG("No es tu turno!");
+            return null;
         }
         String message = "Enemy 1";
         Random random = new Random();
@@ -68,7 +73,10 @@ public class PeleaBasica {//Pelea basica para el modo de juego 1vs1
         message += Hero1.getName() + " for " + randomDamage + " damage";
         Hero1.setHealth(Hero1.getHealth()-randomDamage);
         AttackSound.SonidoAtaque();
-        return message;
+        PlayerTurn = true;
+        UIController.getInstance().peleaUI.updateHPbars();
+        UIController.getInstance().peleaUI.setLogMSG(message);
+        return null;
     }
 
     private String getStringAttack(String message, Random random) {
