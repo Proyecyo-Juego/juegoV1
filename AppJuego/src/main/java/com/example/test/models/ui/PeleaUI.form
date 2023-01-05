@@ -33,9 +33,9 @@
               <verticalAlignment value="0"/>
             </properties>
           </component>
-          <component id="1acb3" class="javax.swing.JLabel" binding="Hero1Image">
+          <component id="1acb3" class="javax.swing.JLabel" binding="Hero1Image" custom-create="true">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <text value="Label"/>
@@ -43,7 +43,7 @@
           </component>
           <component id="d61e3" class="javax.swing.JLabel" binding="Hero1Name">
             <constraints>
-              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <text value="Hereo1"/>
@@ -62,9 +62,9 @@
               <value value="50"/>
             </properties>
           </component>
-          <component id="6be7b" class="javax.swing.JLabel" binding="Enemy1Image">
+          <component id="6be7b" class="javax.swing.JLabel" binding="Enemy1Image" custom-create="true">
             <constraints>
-              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <text value="Label"/>
@@ -72,7 +72,7 @@
           </component>
           <component id="a7df6" class="javax.swing.JLabel" binding="Enemy1Name">
             <constraints>
-              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <text value="Enemigo"/>

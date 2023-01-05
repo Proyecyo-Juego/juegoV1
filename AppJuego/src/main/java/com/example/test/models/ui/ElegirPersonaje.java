@@ -2,7 +2,6 @@ package com.example.test.models.ui;
 
 import com.example.test.controllers.UIController;
 import com.example.test.models.CharacterModel;
-import com.example.test.models.PlayerModel;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -113,10 +112,12 @@ public class ElegirPersonaje {
                 heroe = new CharacterModel("David", 100L);
                 break;
         }
-        PlayerModel.getInstance().elegirPersonaje(heroe);
+        //TODO David, cuando te decidas en como vas a guardar los personajes, ponlo aqui
+        //PlayerModel.getInstance().elegirPersonaje(heroe);
         CardLayout cl = (CardLayout)cards.getLayout();
-        UIController.getInstance().getPeleaUI().updateEscenario();
+
         cl.show(cards, "Pelea");
+        UIController.getInstance().getPeleaUI().updateEscenario();
     }
 
     public JPanel getPanel() {

@@ -29,7 +29,6 @@ public class PeleaUI {
     BufferedImage backgroundImage;
 public PeleaUI(JPanel cards) {
     this.cards = cards;
-    createUIComponents();
 
     returnButton.addActionListener(e -> {
         CardLayout cl = (CardLayout) this.cards.getLayout();
@@ -37,7 +36,25 @@ public PeleaUI(JPanel cards) {
     });
 
 
+    AttackButton.addActionListener(e -> {
+        clickAttack();
 
+    });
+
+    DefendButton.addActionListener(e -> {
+        clickDefend();
+    });
+
+
+}
+
+    private void clickAttack() {
+    System.out.println("Attack");
+    //TODO: implementar
+    }
+    private void clickDefend() {
+    System.out.println("Defend");
+    //TODO: implementar
     }
 
     private void createUIComponents() {
@@ -48,21 +65,11 @@ public PeleaUI(JPanel cards) {
             e.printStackTrace();
         }
         imagePanel1 = new ImagePanel(new GridLayout(),backgroundImage);
-        //imagePanel1.setLayout(new BorderLayout());
-        //imagePanel1.add(returnButton, BorderLayout.SOUTH);
-        //panelPelea = imagePanel1;
+
+        Hero1Image = getImageIcon("AppJuego/David.png", 200, 200);
+        Enemy1Image = getImageIcon("AppJuego/Enemigo.png", 200, 200);
 
 
-/*
-        panelPelea = new JPanel() {
-            @Override
-            protected void paintComponent(Graphics g) {
-                super.paintComponent(g);
-                g.drawImage(backgroundImage, 0, 0, this);
-            }
-        };
-
- */
 
     }
 
@@ -105,7 +112,7 @@ public PeleaUI(JPanel cards) {
         // Return the buffered image
         return bimage;
     }
-
+/*
     public void initBackground(){
         BufferedImage img = null;
         try {
@@ -118,14 +125,23 @@ public PeleaUI(JPanel cards) {
         setBackgroundImage(imgscaled);
     }
 
-    public void setJlabelImage(JLabel label, Image img){
-        Image imgscaled = img.getScaledInstance(100, 100, Image.SCALE_SMOOTH);
-        label.setIcon(new ImageIcon(imgscaled));
-    }
+ */
 
 
     public JPanel getPanel() {
         return panelPelea;
+    }
+
+    public JLabel getImageIcon(String path , int w, int h){
+        BufferedImage img = null;
+        try {
+            img = ImageIO.read(new File("AppJuego/David.jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image imgscaled = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+
+        return new JLabel(new ImageIcon(imgscaled,"David"));
     }
 
 }
