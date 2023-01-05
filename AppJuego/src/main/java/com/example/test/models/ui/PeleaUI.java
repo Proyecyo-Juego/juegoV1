@@ -13,8 +13,6 @@ import java.io.IOException;
 public class PeleaUI {
     private final JPanel cards;
     private JPanel panelPelea;
-
-    //private JLabel backgroundPelea;
     private JButton returnButton;
     private ImagePanel imagePanel1;
     private JLabel Hero1Image;
@@ -118,6 +116,11 @@ public PeleaUI(JPanel cards) {
         }
         Image imgscaled = img.getScaledInstance(1024, 512, Image.SCALE_SMOOTH);
         setBackgroundImage(imgscaled);
+    }
+
+    public void setJlabelImage(JLabel label, Image img){
+        Image imgscaled = img.getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+        label.setIcon(new ImageIcon(imgscaled));
     }
 
 
