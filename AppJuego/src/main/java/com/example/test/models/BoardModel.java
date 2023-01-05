@@ -7,6 +7,7 @@ public class BoardModel {
     private PlayerModel player1;
     private PlayerModel player2;
     private Escenario escenario;
+  //  private ArrayList<CharacterModel> charactersOnBoard;
 
     private BoardModel( PlayerModel player1, PlayerModel player2, Escenario escenario) {
         this.player1 = player1;
