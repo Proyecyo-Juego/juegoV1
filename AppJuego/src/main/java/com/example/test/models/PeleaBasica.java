@@ -76,6 +76,9 @@ public class PeleaBasica {//Pelea basica para el modo de juego 1vs1
         PlayerTurn = true;
         UIController.getInstance().peleaUI.updateHPbars();
         UIController.getInstance().peleaUI.setLogMSG(message);
+        if(Hero1.getHealth()<0){
+            UIController.getInstance().peleaUI.derrota();
+        }
         return null;
     }
 

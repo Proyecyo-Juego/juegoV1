@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Sonido al golpear añadido">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/UIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/UIController.java" afterDir="false" />
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Pelea Basica Completada, puedes golpear el enemigo">
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/PeleaBasica.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/PeleaBasica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/UIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/UIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PeleaBasica.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PeleaBasica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +161,7 @@
       <workItem from="1672403714355" duration="17649000" />
       <workItem from="1672766079575" duration="10774000" />
       <workItem from="1672833734511" duration="9828000" />
-      <workItem from="1672920011966" duration="11236000" />
+      <workItem from="1672920011966" duration="11533000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -337,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672934071626</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Pelea Basica Completada, puedes golpear el enemigo">
+      <created>1672935170473</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672935170473</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +380,8 @@
     <MESSAGE value="Escenario ahora es singleton para guardar el escenario elegido" />
     <MESSAGE value="Iconos en pelea y codigo" />
     <MESSAGE value="Sonido al golpear añadido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sonido al golpear añadido" />
+    <MESSAGE value="Pelea Basica Completada, puedes golpear el enemigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pelea Basica Completada, puedes golpear el enemigo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

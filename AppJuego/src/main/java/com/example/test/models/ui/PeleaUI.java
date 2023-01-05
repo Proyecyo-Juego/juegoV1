@@ -166,4 +166,11 @@ public PeleaUI(JPanel cards) {
         LogMSG.setText(msg);
     }
 
+    public void derrota(){
+        LogMSG.setText("Has perdido!");
+        JOptionPane.showMessageDialog(null, "Has perdido!");
+        CardLayout cl = (CardLayout) this.cards.getLayout();
+        cl.show(this.cards, "Home");
+    }
+
 }
