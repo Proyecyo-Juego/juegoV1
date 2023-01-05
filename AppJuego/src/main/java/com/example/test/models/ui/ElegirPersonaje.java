@@ -2,6 +2,7 @@ package com.example.test.models.ui;
 
 import com.example.test.controllers.UIController;
 import com.example.test.models.CharacterModel;
+import com.example.test.models.PeleaBasica;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -113,6 +114,7 @@ public class ElegirPersonaje {
                 break;
         }
         //TODO David, cuando te decidas en como vas a guardar los personajes, ponlo aqui
+        PeleaBasica.getInstance().setCharacterModel(heroe); //para PeleaBasica
         //PlayerModel.getInstance().elegirPersonaje(heroe);
         CardLayout cl = (CardLayout)cards.getLayout();
 

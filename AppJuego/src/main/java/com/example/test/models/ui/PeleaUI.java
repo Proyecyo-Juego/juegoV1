@@ -1,5 +1,6 @@
 package com.example.test.models.ui;
 
+import com.example.test.models.PeleaBasica;
 import com.example.test.models.escenario.Escenario;
 import com.example.test.models.ui.customPanels.ImagePanel;
 
@@ -51,6 +52,17 @@ public PeleaUI(JPanel cards) {
     private void clickAttack() {
     System.out.println("Attack");
     //TODO: implementar
+        LogMSG.setText(PeleaBasica.getInstance().attackEnemy1());
+        updateHPbars();
+        if(PeleaBasica.getInstance().getPlayerTurn()){
+            //Ataca la IA
+            if (PeleaBasica.getInstance().getEnemy1HP() > 0) {
+                LogMSG.setText(PeleaBasica.getInstance().enemyTurn());
+            }
+            else {
+                LogMSG.setText("Has ganado!");
+            }
+        }
     }
     private void clickDefend() {
     System.out.println("Defend");
@@ -83,6 +95,7 @@ public PeleaUI(JPanel cards) {
     }
 
     public void updateEscenario(){
+    initPelea();
     BufferedImage img = null;
         try {
             //img = ImageIO.read(new File("AppJuego/David.jpg"));
@@ -112,20 +125,15 @@ public PeleaUI(JPanel cards) {
         // Return the buffered image
         return bimage;
     }
-/*
-    public void initBackground(){
-        BufferedImage img = null;
-        try {
-
-            img = ImageIO.read(new File("AppJuego/fondo.png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Image imgscaled = img.getScaledInstance(1024, 512, Image.SCALE_SMOOTH);
-        setBackgroundImage(imgscaled);
+    public void initPelea(){
+        PeleaBasica.getInstance().initPeleaBasica(100);
+        updateHPbars();
     }
 
- */
+    public void updateHPbars(){
+        Hero1HpBar1.setValue(PeleaBasica.getInstance().getHeroHP());
+        Enemy1HpBar.setValue(PeleaBasica.getInstance().getEnemy1HP());
+    }
 
 
     public JPanel getPanel() {
