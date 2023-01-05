@@ -11,6 +11,7 @@ public class PlayerModel {
     private ArrayList<CharacterModel> characterOnBoard;
     private Semaphore semaphore;
 
+
     public PlayerModel(String name, Integer numberOfCharactersAlive, ArrayList<CharacterModel> team, ArrayList<CharacterModel> characterOnBoard) {
         this.setName(name);
         this.setNumberOfCharactersAlive(numberOfCharactersAlive);

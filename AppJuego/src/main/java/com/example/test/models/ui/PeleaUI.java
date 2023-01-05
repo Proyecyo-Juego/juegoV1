@@ -1,6 +1,6 @@
 package com.example.test.models.ui;
 
-import com.example.test.models.PlayerModel;
+import com.example.test.models.escenario.Escenario;
 import com.example.test.models.ui.customPanels.ImagePanel;
 
 import javax.imageio.ImageIO;
@@ -79,7 +79,7 @@ public PeleaUI(JPanel cards) {
     BufferedImage img = null;
         try {
             //img = ImageIO.read(new File("AppJuego/David.jpg"));
-            img = ImageIO.read(new File(PlayerModel.getInstance().getEscenario().getBackgroundPath()));
+            img = ImageIO.read(new File(Escenario.getInstance().getBackgroundPath()));
         } catch (IOException e) {
             e.printStackTrace();
         }
