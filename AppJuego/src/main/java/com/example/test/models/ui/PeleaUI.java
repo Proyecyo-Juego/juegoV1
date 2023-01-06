@@ -1,6 +1,7 @@
 package com.example.test.models.ui;
 
 import com.example.test.models.PeleaBasica;
+import com.example.test.controllers.SoundManager;
 import com.example.test.models.escenario.Escenario;
 import com.example.test.models.ui.customPanels.ImagePanel;
 
@@ -68,6 +69,7 @@ public PeleaUI(JPanel cards) {
             else {
                 System.out.println("Pelea terminada");
                 LogMSG.setText("Has ganado!");
+                SoundManager.SonidoVictoria();
                 JOptionPane.showMessageDialog(null, "Has ganado!");
                 CardLayout cl = (CardLayout) this.cards.getLayout();
                 cl.show(this.cards, "Home");
@@ -168,6 +170,7 @@ public PeleaUI(JPanel cards) {
 
     public void derrota(){
         LogMSG.setText("Has perdido!");
+        SoundManager.SonidoDerrota();
         JOptionPane.showMessageDialog(null, "Has perdido!");
         CardLayout cl = (CardLayout) this.cards.getLayout();
         cl.show(this.cards, "Home");

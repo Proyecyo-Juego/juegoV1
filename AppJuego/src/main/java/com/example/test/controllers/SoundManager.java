@@ -1,11 +1,11 @@
-package com.example.test.models;
+package com.example.test.controllers;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import java.io.File;
 import java.util.Random;
 
-public class AttackSound {
+public class SoundManager {
 
     public static void SonidoAtaque(){
         String path;
@@ -24,6 +24,20 @@ public class AttackSound {
                 break;
         }
 
+        playSound(path);
+    }
+
+    public static void SonidoDerrota(){
+        String path = "AppJuego/Assets/sonidos/Derrota.wav";
+        playSound(path);
+    }
+
+    public static void SonidoVictoria(){
+        String path = "AppJuego/Assets/sonidos/victoria.wav";
+        playSound(path);
+    }
+
+    private static void playSound(String path) {
         try{
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(path).getAbsoluteFile());
             javax.sound.sampled.Clip clip = AudioSystem.getClip();
@@ -33,23 +47,5 @@ public class AttackSound {
             System.out.println("Error with playing sound.");
             ex.printStackTrace();
         }
-
-
-        //es para .wav
-        /*
-        try{
-            Media hit = new Media(new File(path).toURI().toString());
-            MediaPlayer mediaPlayer = new MediaPlayer(hit);
-            mediaPlayer.play();
-        }
-        catch(Exception e){
-            System.out.println("Error with playing sound.");
-            e.printStackTrace();
-        }
-
-         */
-
-
-
     }
 }

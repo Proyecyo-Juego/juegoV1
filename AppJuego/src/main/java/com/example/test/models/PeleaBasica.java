@@ -1,5 +1,6 @@
 package com.example.test.models;
 
+import com.example.test.controllers.SoundManager;
 import com.example.test.controllers.UIController;
 
 import java.util.Random;
@@ -55,7 +56,7 @@ public class PeleaBasica {//Pelea basica para el modo de juego 1vs1
         message = getStringAttack(message, random);
         message += "Enemy 1 for " + randomDamage + " damage";
         Enemy1HP -= randomDamage;
-        AttackSound.SonidoAtaque();
+        SoundManager.SonidoAtaque();
         PlayerTurn = false;
         return message;
     }
@@ -72,7 +73,7 @@ public class PeleaBasica {//Pelea basica para el modo de juego 1vs1
         message = getStringAttack(message, random);
         message += Hero1.getName() + " for " + randomDamage + " damage";
         Hero1.setHealth(Hero1.getHealth()-randomDamage);
-        AttackSound.SonidoAtaque();
+        SoundManager.SonidoAtaque();
         PlayerTurn = true;
         UIController.getInstance().peleaUI.updateHPbars();
         UIController.getInstance().peleaUI.setLogMSG(message);
