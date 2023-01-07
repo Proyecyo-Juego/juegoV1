@@ -6,7 +6,7 @@ public class Escenario {
 
     private static Escenario me;
 
-    public Escenario(String nombre, String background) {
+    private Escenario(String nombre, String background) {
         this.nombre = nombre;
         this.background = background;
         this.me = this;
@@ -14,22 +14,41 @@ public class Escenario {
 
     public static Escenario getInstance() {
         if(me == null){
-            me = new Escenario("Ciudad", "com/example/test/models/escenario/backgrounds/ciudad8bit.jpg");
+            me = new Escenario("Ciudad", "AppJuego/Assets/FondosEscenario/Escenario1.jpg");
         }
         return me;
     }
 
-    public static Escenario elegirEscena(String escena) {
+    public static Void elegirEscena(String escena) {
         switch (escena) {
+            case "1":
             case "ciudad":
-                return new Escenario("ciudad", "com/example/test/models/escenario/backgrounds/ciudad8bit.jpg");
-
+                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario1.jpg", "ciudad");
+                break;
+            case "2":
+            case "Arasaka":
+                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario2.jpg", "Arasaka");
+                break;
+            case "3":
+            case "HackerDen":
+                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario3.jpg", "HackerDen");
+                break;
+            case "4":
+            case "Alley":
+                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario4.jpg", "Alley");
+                break;
 
             default:
-                return new Escenario("ciudad", "com/example/test/models/escenario/backgrounds/ciudad8bit.jpg");
+                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario1.jpg", "ciudad");
+                break;
 
 
         }
+        return null;
+    }
+    public void setEscenario(String path, String nombre){
+        this.background = path;
+        this.nombre = nombre;
     }
     public String getNombre() {
         return nombre;

@@ -99,18 +99,17 @@ public PeleaUI(JPanel cards) {
 
     public void setBackgroundImage(BufferedImage backgroundImage) {
         this.backgroundImage = backgroundImage;
-        panelPelea.repaint();
+        imagePanel1.setImage(backgroundImage);
     }
     public void setBackgroundImage(Image backgroundImage) {
         this.backgroundImage = toBufferedImage(backgroundImage);
-        panelPelea.repaint();
+        imagePanel1.setImage(this.backgroundImage);
     }
 
     public void updateEscenario(){
     initPelea();
     BufferedImage img = null;
         try {
-            //img = ImageIO.read(new File("AppJuego/David.jpg"));
             img = ImageIO.read(new File(Escenario.getInstance().getBackgroundPath()));
         } catch (IOException e) {
             e.printStackTrace();

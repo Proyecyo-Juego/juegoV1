@@ -24,6 +24,15 @@ public class ImagePanel extends JPanel
         return true;
     }
 
+    public void setImage(Image image)
+    {
+        this.image = image;
+        this.iWidth2 = image.getWidth(this)/2;
+        this.iHeight2 = image.getHeight(this)/2;
+        revalidate();
+        repaint();
+    }
+
     @Override
     public Component add(Component component)
     {

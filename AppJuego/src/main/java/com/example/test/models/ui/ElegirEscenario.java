@@ -2,12 +2,16 @@ package com.example.test.models.ui;
 
 import com.example.test.models.escenario.Escenario;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 
 public class ElegirEscenario extends JFrame {
 
@@ -80,40 +84,38 @@ public class ElegirEscenario extends JFrame {
     private void createUIComponents() {
         // TODO: place custom component creation code here
 
-        Imagen1 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 1"));
-        Imagen2 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 2"));
-        Imagen3 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 3"));
-        Imagen4 = new JLabel(new ImageIcon("AppJuego/fondoMini.png","Ciudad 4"));
+        Imagen1 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario1.jpg",300,200);
+        Imagen2 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario2.jpg",300,200);
+        Imagen3 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario3.jpg",300,200);
+        Imagen4 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario4.jpg",300,200);
 
     }
 
     private void elegirEscenario(int numero){
-        Escenario escena;
-
         switch(numero){
             case 1:
                 //Escenario 1
-                escena = new Escenario("ciudad", "AppJuego/fondo.png");
+                Escenario.elegirEscena("1");
                 break;
             case 2:
                 //Escenario 2
-                escena = new Escenario("ciudad", "AppJuego/fondo.png");
+                Escenario.elegirEscena("2");
                 break;
             case 3:
                 //Escenario 3
-                escena = new Escenario("ciudad", "AppJuego/fondo.png");
+                Escenario.elegirEscena("3");
                 break;
             case 4:
                 //Escenario 4
-                escena = new Escenario("ciudad", "AppJuego/fondo.png");
+                Escenario.elegirEscena("4");
                 break;
             default:
                 //Escenario por defecto
-                escena = new Escenario("ciudad", "AppJuego/fondo.png");
+                Escenario.elegirEscena("1");
                 break;
         }
         //Escenario.getInstance().setEscenario(escena);
-        System.out.println("Escenario elegido: " + escena.getNombre());
+        System.out.println("Escenario elegido: " +numero);
         //Abrir ventana de elegir personaje
         CardLayout cl = (CardLayout)cards.getLayout();
         cl.show(cards, "ElegirPersonaje");
@@ -121,5 +123,17 @@ public class ElegirEscenario extends JFrame {
     }
     public JPanel getPanel(){
         return ElegirPanel;
+    }
+
+    private JLabel getImageIcon(String path , int w, int h){
+        BufferedImage img = null;
+        try {
+            img = ImageIO.read(new File(path));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image imgscaled = img.getScaledInstance(w, h, Image.SCALE_SMOOTH);
+
+        return new JLabel(new ImageIcon(imgscaled));
     }
 }

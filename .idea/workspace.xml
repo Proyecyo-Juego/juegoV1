@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="check de derrota">
-      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/sonidos/victoria.wav" afterDir="false" />
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Mas sonidos">
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/AttackSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/SoundManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/PeleaBasica.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/PeleaBasica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/escenario/Escenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/escenario/Escenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/customPanels/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/customPanels/ImagePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,7 @@
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/src/main/java/com/example/test&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/Assets/sonidos&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/Assets/FondosEscenario&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -94,11 +98,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\Assets\FondosEscenario" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\Assets\sonidos" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\java\com\example\test\models\ui" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\java\com\example\test\escenario\backgrounds" />
-      <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\resources\static\js" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.test.escenario" />
@@ -111,7 +115,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TestApplication">
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="juegoV1" />
       <method v="2">
@@ -165,7 +169,8 @@
       <workItem from="1672766079575" duration="10774000" />
       <workItem from="1672833734511" duration="9828000" />
       <workItem from="1672920011966" duration="13059000" />
-      <workItem from="1673009537887" duration="570000" />
+      <workItem from="1673009537887" duration="3835000" />
+      <workItem from="1673092380735" duration="3231000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -349,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672935432608</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Mas sonidos">
+      <created>1673010122670</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673010122670</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="no tengo nidea de como, pero ahora me reconoce spring" />
     <MESSAGE value="CardModel Basico para que compile" />
     <MESSAGE value="UI empezada" />
     <MESSAGE value="masUI" />
@@ -392,7 +403,8 @@
     <MESSAGE value="Sonido al golpear añadido" />
     <MESSAGE value="Pelea Basica Completada, puedes golpear el enemigo" />
     <MESSAGE value="check de derrota" />
-    <option name="LAST_COMMIT_MESSAGE" value="check de derrota" />
+    <MESSAGE value="Mas sonidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mas sonidos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
