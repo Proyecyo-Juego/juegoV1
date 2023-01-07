@@ -90,8 +90,8 @@ public PeleaUI(JPanel cards) {
         }
         imagePanel1 = new ImagePanel(new GridLayout(),backgroundImage);
 
-        Hero1Image = getImageIcon("AppJuego/David.png", 200, 200);
-        Enemy1Image = getImageIcon("AppJuego/Enemigo.png", 200, 200);
+        Hero1Image = getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 200, 300);
+        Enemy1Image = getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 200, 300);
 
 
 
@@ -116,6 +116,10 @@ public PeleaUI(JPanel cards) {
         }
         Image imgscaled = img.getScaledInstance(1024, 512, Image.SCALE_SMOOTH);
         setBackgroundImage(imgscaled);
+
+        Hero1Image.setIcon(getImageIcon(PeleaBasica.getInstance().getCharacterModel().getIconPath(), 200, 300));
+        Hero1Image.revalidate();
+        Hero1Image.repaint();
     }
 
     public static BufferedImage toBufferedImage(Image img)
@@ -151,16 +155,27 @@ public PeleaUI(JPanel cards) {
         return panelPelea;
     }
 
-    public JLabel getImageIcon(String path , int w, int h){
+    public JLabel getIconLabel(String path , int w, int h){
         BufferedImage img = null;
         try {
-            img = ImageIO.read(new File("AppJuego/David.jpg"));
+            img = ImageIO.read(new File(path));
         } catch (IOException e) {
             e.printStackTrace();
         }
         Image imgscaled = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
 
-        return new JLabel(new ImageIcon(imgscaled,"David"));
+        return new JLabel(new ImageIcon(imgscaled));
+    }
+    public ImageIcon getImageIcon(String path , int w, int h){
+        BufferedImage img = null;
+        try {
+            img = ImageIO.read(new File(path));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image imgscaled = img.getScaledInstance(w, h, Image.SCALE_SMOOTH);
+
+        return new ImageIcon(imgscaled);
     }
 
     public void setLogMSG(String msg){

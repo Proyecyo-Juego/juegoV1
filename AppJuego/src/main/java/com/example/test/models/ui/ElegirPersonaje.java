@@ -83,10 +83,10 @@ public class ElegirPersonaje {
         }
         Image imgscaled = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
 
-        Imagen1 = new JLabel(new ImageIcon(imgscaled,"David"));
-        Imagen2 = new JLabel(new ImageIcon(imgscaled,"David"));
-        Imagen3 = new JLabel(new ImageIcon(imgscaled,"David"));
-        Imagen4 = new JLabel(new ImageIcon(imgscaled,"David"));
+        Imagen1 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg",200,200);
+        Imagen2 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg",200,200);
+        Imagen3 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg",200,200);
+        Imagen4 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg",200,200);
 
     }
 
@@ -96,21 +96,26 @@ public class ElegirPersonaje {
             case 1:
                 //Personaje 1
                 heroe = new CharacterModel("David", 100L);
+                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg");
                 break;
             case 2:
                 //Personaje 2
-                heroe = new CharacterModel("David", 100L);
+                heroe = new CharacterModel("Lucy", 100L);
+                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg");
                 break;
             case 3:
                 //Personaje 3
-                heroe = new CharacterModel("David", 100L);
+                heroe = new CharacterModel("Maine", 100L);
+                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg");
                 break;
             case 4:
                 //Personaje 4
-                heroe = new CharacterModel("David", 100L);
+                heroe = new CharacterModel("Rebecca", 100L);
+                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg");
                 break;
             default:
                 heroe = new CharacterModel("David", 100L);
+                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg");
                 break;
         }
         //TODO David, cuando te decidas en como vas a guardar los personajes, ponlo aqui
@@ -124,5 +129,17 @@ public class ElegirPersonaje {
 
     public JPanel getPanel() {
         return ElegirPanel;
+    }
+
+    private JLabel getImageIcon(String path , int w, int h){
+        BufferedImage img = null;
+        try {
+            img = ImageIO.read(new File(path));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image imgscaled = img.getScaledInstance(w, h, Image.SCALE_SMOOTH);
+
+        return new JLabel(new ImageIcon(imgscaled));
     }
 }

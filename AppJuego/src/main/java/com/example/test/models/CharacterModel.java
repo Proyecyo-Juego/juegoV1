@@ -11,6 +11,8 @@ public class CharacterModel {
     private ArrayList<MovementModel> movementSet;
     private String status;
 
+    private String iconPath;
+
     public CharacterModel(String name, Long health) {
         this.name = name;
         this.health = health;
@@ -76,6 +78,13 @@ public class CharacterModel {
 
     public void setMovementSet(ArrayList<MovementModel> movementSet) {
         this.movementSet = movementSet;
+    }
+
+    public String getIconPath() {
+        return iconPath;
+    }
+    public void setIconPath(String iconPath) {
+        this.iconPath = iconPath;
     }
 
 }

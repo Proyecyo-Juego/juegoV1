@@ -4,16 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Mas sonidos">
-      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario4.jpg" afterDir="false" />
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Varios escenarios añadidos, y mejor manejo de escenarios">
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/Kiwi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/escenario/Escenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/escenario/Escenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/CharacterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/CharacterModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirPersonaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirPersonaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/customPanels/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/customPanels/ImagePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UILogindeprecado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/AttackSound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/CharacterModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/CharacterModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PeleaBasica.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PeleaBasica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/escenario/Escenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/escenario/Escenario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UILogindeprecado$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UILogindeprecado$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UILogindeprecado$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UILogindeprecado.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,41 +87,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/src/main/java/com/example/test&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/Assets/FondosEscenario&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;2ce28da0bf86bd3aa77c225aa6709158&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_directory_selection": "C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/src/main/java/com/example/test",
+    "last_opened_file_path": "C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/Assets/LogosPersonaje",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "2ce28da0bf86bd3aa77c225aa6709158",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\Assets\LogosPersonaje" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\Assets\FondosEscenario" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\Assets\sonidos" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego" />
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\java\com\example\test\models\ui" />
-      <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\src\main\java\com\example\test\escenario\backgrounds" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\Assets\LogosPersonaje\Protagonistas" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.test.escenario" />
@@ -170,7 +192,7 @@
       <workItem from="1672833734511" duration="9828000" />
       <workItem from="1672920011966" duration="13059000" />
       <workItem from="1673009537887" duration="3835000" />
-      <workItem from="1673092380735" duration="3231000" />
+      <workItem from="1673092380735" duration="9608000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -361,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673010122670</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Varios escenarios añadidos, y mejor manejo de escenarios">
+      <created>1673098866122</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673098866122</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CardModel Basico para que compile" />
     <MESSAGE value="UI empezada" />
     <MESSAGE value="masUI" />
     <MESSAGE value="escenario" />
@@ -404,7 +432,8 @@
     <MESSAGE value="Pelea Basica Completada, puedes golpear el enemigo" />
     <MESSAGE value="check de derrota" />
     <MESSAGE value="Mas sonidos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mas sonidos" />
+    <MESSAGE value="Varios escenarios añadidos, y mejor manejo de escenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Varios escenarios añadidos, y mejor manejo de escenarios" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
