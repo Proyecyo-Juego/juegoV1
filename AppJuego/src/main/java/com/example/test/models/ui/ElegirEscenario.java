@@ -84,10 +84,10 @@ public class ElegirEscenario extends JFrame {
     private void createUIComponents() {
         // TODO: place custom component creation code here
 
-        Imagen1 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario1.jpg",300,200);
-        Imagen2 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario2.jpg",300,200);
-        Imagen3 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario3.jpg",300,200);
-        Imagen4 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario4.jpg",300,200);
+        Imagen1 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario1.jpg",400,300);
+        Imagen2 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario2.jpg",400,300);
+        Imagen3 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario3.jpg",400,300);
+        Imagen4 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario4.jpg",400,300);
 
     }
 

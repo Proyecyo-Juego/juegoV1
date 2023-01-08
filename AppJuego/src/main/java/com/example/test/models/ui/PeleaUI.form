@@ -6,7 +6,7 @@
     </constraints>
     <properties>
       <opaque value="false"/>
-      <preferredSize width="1024" height="512"/>
+      <preferredSize width="1280" height="720"/>
     </properties>
     <border type="none"/>
     <children>
@@ -17,7 +17,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
-          <preferredSize width="1024" height="512"/>
+          <preferredSize width="1280" height="720"/>
         </properties>
         <border type="none"/>
         <children>

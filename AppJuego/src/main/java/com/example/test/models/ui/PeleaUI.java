@@ -90,8 +90,8 @@ public PeleaUI(JPanel cards) {
         }
         imagePanel1 = new ImagePanel(new GridLayout(),backgroundImage);
 
-        Hero1Image = getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 200, 300);
-        Enemy1Image = getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 200, 300);
+        Hero1Image = getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
+        Enemy1Image = getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
 
 
 
@@ -114,10 +114,10 @@ public PeleaUI(JPanel cards) {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Image imgscaled = img.getScaledInstance(1024, 512, Image.SCALE_SMOOTH);
+        Image imgscaled = img.getScaledInstance(1280,720, Image.SCALE_SMOOTH);
         setBackgroundImage(imgscaled);
 
-        Hero1Image.setIcon(getImageIcon(PeleaBasica.getInstance().getCharacterModel().getIconPath(), 200, 300));
+        Hero1Image.setIcon(getImageIcon(PeleaBasica.getInstance().getCharacterModel().getIconPath(), 300, 400));
         Hero1Image.revalidate();
         Hero1Image.repaint();
     }
@@ -162,7 +162,7 @@ public PeleaUI(JPanel cards) {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Image imgscaled = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        Image imgscaled = img.getScaledInstance(w, h, Image.SCALE_SMOOTH);
 
         return new JLabel(new ImageIcon(imgscaled));
     }

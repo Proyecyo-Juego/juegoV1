@@ -83,10 +83,10 @@ public class ElegirPersonaje {
         }
         Image imgscaled = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
 
-        Imagen1 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg",200,200);
-        Imagen2 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg",200,200);
-        Imagen3 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg",200,200);
-        Imagen4 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg",200,200);
+        Imagen1 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg",200,300);
+        Imagen2 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg",200,300);
+        Imagen3 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg",200,300);
+        Imagen4 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg",200,300);
 
     }
 

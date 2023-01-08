@@ -7,7 +7,6 @@ public class CharacterModel {
     private String name;
     private Long health;
     private Long damage;
-  //  private arma armaEquipada;
     private ArrayList<MovementModel> movementSet;
     private String status;
 

@@ -24,9 +24,9 @@ public class UIController {
 
         mainFrame = new JFrame("Main");
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        mainFrame.setSize(1024, 512);
+        mainFrame.setSize(1280, 720);
         cards = new JPanel(new CardLayout());
-        cards.setSize(1024, 512);
+        cards.setSize(1280, 720);
         initializeCards();
         this.me= this;
     }
