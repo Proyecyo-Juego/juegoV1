@@ -8,15 +8,17 @@ import java.awt.*;
 public class UIController {
 
     private static UIController me = null;
-    JFrame mainFrame;
-    JPanel cards;
+    private JFrame mainFrame;
+    private JPanel cards;
 
 
-    LoginUI loginUI;
-    UIHome uiHome;
-    ElegirEscenario elegirEscenario;
-    ElegirPersonaje elegirPersonaje;
-    public PeleaUI peleaUI;
+    private LoginUI loginUI;
+    private UIHome uiHome;
+    private ElegirEscenario elegirEscenario;
+    private ElegirPersonaje elegirPersonaje;
+    private PeleaUI peleaUI;
+
+    private RankingUI rankingUI;
 
 
     private UIController(){
@@ -64,6 +66,9 @@ public class UIController {
         peleaUI = new PeleaUI(cards);
         JPanel peleaPanel = peleaUI.getPanel();
 
+        rankingUI = new RankingUI();
+        JPanel rankingPanel = rankingUI.getPanel();
+
 
 
 
@@ -72,6 +77,7 @@ public class UIController {
         cards.add(elegirEscenarioPanel, "ElegirEscenario");
         cards.add(elegirPersonajePanel, "ElegirPersonaje");
         cards.add(peleaPanel, "Pelea");
+        cards.add(rankingPanel, "Ranking");
 
         mainFrame.add(cards);
         mainFrame.pack();

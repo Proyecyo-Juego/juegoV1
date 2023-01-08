@@ -1,9 +1,10 @@
 package com.example.test.models.ui;
 
-import com.example.test.models.PeleaBasica;
 import com.example.test.controllers.SoundManager;
+import com.example.test.models.PeleaBasica;
 import com.example.test.models.escenario.Escenario;
 import com.example.test.models.ui.customPanels.ImagePanel;
+import com.example.test.models.ui.customPanels.PanelUtils;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -90,8 +91,8 @@ public PeleaUI(JPanel cards) {
         }
         imagePanel1 = new ImagePanel(new GridLayout(),backgroundImage);
 
-        Hero1Image = getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
-        Enemy1Image = getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
+        Hero1Image = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
+        Enemy1Image = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
 
 
 
@@ -102,7 +103,7 @@ public PeleaUI(JPanel cards) {
         imagePanel1.setImage(backgroundImage);
     }
     public void setBackgroundImage(Image backgroundImage) {
-        this.backgroundImage = toBufferedImage(backgroundImage);
+        this.backgroundImage = PanelUtils.toBufferedImage(backgroundImage);
         imagePanel1.setImage(this.backgroundImage);
     }
 
@@ -117,29 +118,12 @@ public PeleaUI(JPanel cards) {
         Image imgscaled = img.getScaledInstance(1280,720, Image.SCALE_SMOOTH);
         setBackgroundImage(imgscaled);
 
-        Hero1Image.setIcon(getImageIcon(PeleaBasica.getInstance().getCharacterModel().getIconPath(), 300, 400));
+        Hero1Image.setIcon(PanelUtils.getImageIcon(PeleaBasica.getInstance().getCharacterModel().getIconPath(), 300, 400));
         Hero1Image.revalidate();
         Hero1Image.repaint();
     }
 
-    public static BufferedImage toBufferedImage(Image img)
-    {
-        if (img instanceof BufferedImage)
-        {
-            return (BufferedImage) img;
-        }
 
-        // Create a buffered image with transparency
-        BufferedImage bimage = new BufferedImage(img.getWidth(null), img.getHeight(null), BufferedImage.TYPE_INT_ARGB);
-
-        // Draw the image on to the buffered image
-        Graphics2D bGr = bimage.createGraphics();
-        bGr.drawImage(img, 0, 0, null);
-        bGr.dispose();
-
-        // Return the buffered image
-        return bimage;
-    }
     public void initPelea(){
         PeleaBasica.getInstance().initPeleaBasica(100);
         updateHPbars();
@@ -155,28 +139,8 @@ public PeleaUI(JPanel cards) {
         return panelPelea;
     }
 
-    public JLabel getIconLabel(String path , int w, int h){
-        BufferedImage img = null;
-        try {
-            img = ImageIO.read(new File(path));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Image imgscaled = img.getScaledInstance(w, h, Image.SCALE_SMOOTH);
 
-        return new JLabel(new ImageIcon(imgscaled));
-    }
-    public ImageIcon getImageIcon(String path , int w, int h){
-        BufferedImage img = null;
-        try {
-            img = ImageIO.read(new File(path));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Image imgscaled = img.getScaledInstance(w, h, Image.SCALE_SMOOTH);
 
-        return new ImageIcon(imgscaled);
-    }
 
     public void setLogMSG(String msg){
         LogMSG.setText(msg);

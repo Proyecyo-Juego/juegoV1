@@ -39,9 +39,9 @@ public UIHome(JPanel cards) {
     rankingButton.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
-            //Abrir ventana de ranking
-            //Aun no implementado
             System.out.println("Ranking");
+            CardLayout cl = (CardLayout)frame.getLayout();
+            cl.show(frame, "Ranking");
         }
     });
     JugarButton.addActionListener(new ActionListener() {

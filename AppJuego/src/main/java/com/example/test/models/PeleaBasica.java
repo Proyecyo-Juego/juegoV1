@@ -64,7 +64,7 @@ public class PeleaBasica {//Pelea basica para el modo de juego 1vs1
 
     public Void enemyTurn(){
         if (this.PlayerTurn){
-            UIController.getInstance().peleaUI.setLogMSG("No es tu turno!");
+            UIController.getInstance().getPeleaUI().setLogMSG("No es tu turno!");
             return null;
         }
         String message = "Enemy 1";
@@ -75,10 +75,10 @@ public class PeleaBasica {//Pelea basica para el modo de juego 1vs1
         Hero1.setHealth(Hero1.getHealth()-randomDamage);
         SoundManager.SonidoAtaque();
         PlayerTurn = true;
-        UIController.getInstance().peleaUI.updateHPbars();
-        UIController.getInstance().peleaUI.setLogMSG(message);
+        UIController.getInstance().getPeleaUI().updateHPbars();
+        UIController.getInstance().getPeleaUI().setLogMSG(message);
         if(Hero1.getHealth()<0){
-            UIController.getInstance().peleaUI.derrota();
+            UIController.getInstance().getPeleaUI().derrota();
         }
         return null;
     }

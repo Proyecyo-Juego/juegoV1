@@ -1,6 +1,7 @@
 package com.example.test.models.ui;
 
 import com.example.test.models.escenario.Escenario;
+import com.example.test.models.ui.customPanels.PanelUtils;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -84,10 +85,10 @@ public class ElegirEscenario extends JFrame {
     private void createUIComponents() {
         // TODO: place custom component creation code here
 
-        Imagen1 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario1.jpg",400,300);
-        Imagen2 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario2.jpg",400,300);
-        Imagen3 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario3.jpg",400,300);
-        Imagen4 = getImageIcon("AppJuego/Assets/FondosEscenario/Escenario4.jpg",400,300);
+        Imagen1 = PanelUtils.getIconLabel("AppJuego/Assets/FondosEscenario/Escenario1.jpg",400,300);
+        Imagen2 = PanelUtils.getIconLabel("AppJuego/Assets/FondosEscenario/Escenario2.jpg",400,300);
+        Imagen3 = PanelUtils.getIconLabel("AppJuego/Assets/FondosEscenario/Escenario3.jpg",400,300);
+        Imagen4 = PanelUtils.getIconLabel("AppJuego/Assets/FondosEscenario/Escenario4.jpg",400,300);
 
     }
 

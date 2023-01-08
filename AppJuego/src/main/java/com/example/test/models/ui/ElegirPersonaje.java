@@ -3,6 +3,7 @@ package com.example.test.models.ui;
 import com.example.test.controllers.UIController;
 import com.example.test.models.CharacterModel;
 import com.example.test.models.PeleaBasica;
+import com.example.test.models.ui.customPanels.PanelUtils;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -83,10 +84,10 @@ public class ElegirPersonaje {
         }
         Image imgscaled = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
 
-        Imagen1 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg",200,300);
-        Imagen2 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg",200,300);
-        Imagen3 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg",200,300);
-        Imagen4 = getImageIcon("AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg",200,300);
+        Imagen1 = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg",200,300);
+        Imagen2 = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg",200,300);
+        Imagen3 = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg",200,300);
+        Imagen4 = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg",200,300);
 
     }
 
@@ -131,15 +132,5 @@ public class ElegirPersonaje {
         return ElegirPanel;
     }
 
-    private JLabel getImageIcon(String path , int w, int h){
-        BufferedImage img = null;
-        try {
-            img = ImageIO.read(new File(path));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Image imgscaled = img.getScaledInstance(w, h, Image.SCALE_SMOOTH);
 
-        return new JLabel(new ImageIcon(imgscaled));
-    }
 }
