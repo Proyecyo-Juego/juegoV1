@@ -6,6 +6,8 @@
       <xy x="20" y="20" width="158" height="92"/>
     </constraints>
     <properties>
+      <background color="-16769281"/>
+      <enabled value="true"/>
       <preferredSize width="1280" height="720"/>
     </properties>
     <border type="none"/>
@@ -18,6 +20,7 @@
           </grid>
         </constraints>
         <properties>
+          <foreground color="-16509375"/>
           <text value="&lt;--Volver"/>
         </properties>
       </component>
@@ -28,7 +31,9 @@
             <preferred-size width="200" height="200"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="63000" class="javax.swing.JLabel" binding="Imagen1" custom-create="true">
@@ -49,7 +54,9 @@
             <preferred-size width="200" height="200"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="5fcca" class="javax.swing.JLabel" binding="Imagen2" custom-create="true">
@@ -70,7 +77,9 @@
             <preferred-size width="200" height="200"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="10184" class="javax.swing.JLabel" binding="Imagen3" custom-create="true">
@@ -91,7 +100,9 @@
             <preferred-size width="200" height="200"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="65ae0" class="javax.swing.JLabel" binding="Imagen4" custom-create="true">

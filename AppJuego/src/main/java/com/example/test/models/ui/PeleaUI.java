@@ -105,7 +105,7 @@ public PeleaUI(JPanel cards) {
         imagePanel1 = new ImagePanel(new GridLayout(),backgroundImage);
 
         Hero1Image = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
-        Enemy1Image = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
+        Enemy1Image = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Enemigos/Robot.jpg", 300, 400);
 
 
 

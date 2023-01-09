@@ -27,6 +27,7 @@
             </constraints>
             <properties>
               <alignmentY value="0.5"/>
+              <foreground color="-16509375"/>
               <horizontalAlignment value="0"/>
               <horizontalTextPosition value="0"/>
               <text value="&lt;-Home"/>
@@ -101,7 +102,7 @@
             </constraints>
             <properties>
               <font size="20"/>
-              <foreground color="-4520704"/>
+              <foreground color="-61167"/>
               <text value="Pelea iniciada"/>
             </properties>
           </component>

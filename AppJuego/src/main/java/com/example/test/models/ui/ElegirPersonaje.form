@@ -5,7 +5,9 @@
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-16769281"/>
+    </properties>
     <border type="none"/>
     <children>
       <grid id="c1491" binding="ElegirPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -16,6 +18,7 @@
           </grid>
         </constraints>
         <properties>
+          <background color="-16769281"/>
           <preferredSize width="1024" height="512"/>
         </properties>
         <border type="none"/>
@@ -28,6 +31,7 @@
               </grid>
             </constraints>
             <properties>
+              <foreground color="-16509375"/>
               <text value="&lt;--Volver"/>
             </properties>
           </component>
@@ -38,7 +42,9 @@
                 <preferred-size width="200" height="200"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="9e52c" class="javax.swing.JLabel" binding="Imagen1" custom-create="true">
@@ -59,7 +65,9 @@
                 <preferred-size width="200" height="200"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="5f977" class="javax.swing.JLabel" binding="Imagen2" custom-create="true">
@@ -80,7 +88,9 @@
                 <preferred-size width="200" height="200"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="63a87" class="javax.swing.JLabel" binding="Imagen3" custom-create="true">
@@ -101,7 +111,9 @@
                 <preferred-size width="200" height="200"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="9c68" class="javax.swing.JLabel" binding="Imagen4" custom-create="true">
