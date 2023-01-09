@@ -13,11 +13,11 @@ public class UIController {
 
 
     private LoginUI loginUI;
+    private RegisterUI registerUI;
     private UIHome uiHome;
     private ElegirEscenario elegirEscenario;
     private ElegirPersonaje elegirPersonaje;
     private PeleaUI peleaUI;
-
     private RankingUI rankingUI;
 
 
@@ -54,6 +54,9 @@ public class UIController {
         loginUI = new LoginUI(cards);
         JPanel loginPanel = loginUI.getPanel();
 
+        registerUI = new RegisterUI(cards);
+        JPanel registerPanel = registerUI.getPanel();
+
         uiHome = new UIHome(cards);
         JPanel homePanel = uiHome.getPanel();
 
@@ -73,6 +76,7 @@ public class UIController {
 
 
         cards.add(loginPanel, "Login");
+        cards.add(registerPanel, "Register");
         cards.add(homePanel, "Home");
         cards.add(elegirEscenarioPanel, "ElegirEscenario");
         cards.add(elegirPersonajePanel, "ElegirPersonaje");
