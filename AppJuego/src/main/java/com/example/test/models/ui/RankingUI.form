@@ -51,15 +51,7 @@
               <opaque value="false"/>
             </properties>
             <border type="none"/>
-            <children>
-              <component id="6493a" class="javax.swing.JList" binding="RankingList">
-                <constraints/>
-                <properties>
-                  <dragEnabled value="false"/>
-                  <opaque value="false"/>
-                </properties>
-              </component>
-            </children>
+            <children/>
           </scrollpane>
         </children>
       </grid>
