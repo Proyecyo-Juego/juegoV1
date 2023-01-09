@@ -1,5 +1,7 @@
 package com.example.test.models.ui;
 
+import com.example.test.controllers.UIController;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -40,6 +42,7 @@ public UIHome(JPanel cards) {
         @Override
         public void actionPerformed(ActionEvent e) {
             System.out.println("Ranking");
+            UIController.getInstance().getRankingUI().updateRanking();
             CardLayout cl = (CardLayout)frame.getLayout();
             cl.show(frame, "Ranking");
         }

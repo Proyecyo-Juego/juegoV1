@@ -92,4 +92,8 @@ public class UIController {
         return peleaUI;
     }
 
+    public RankingUI getRankingUI() {
+        return rankingUI;
+    }
+
 }

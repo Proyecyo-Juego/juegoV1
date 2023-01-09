@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="eliminado boton extra">
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="entrada invitado local">
+      <change afterPath="$PROJECT_DIR$/AppJuego/Datos/Ranking/datosRanking.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/RankingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ranking/RankingList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/UIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/UIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/RankingScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ranking/RankingScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/LoginUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/LoginUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/classpath.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/UIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/UIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/RankingScore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/LoginUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/LoginUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RegisterUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RegisterUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +185,7 @@
       <workItem from="1673009537887" duration="3835000" />
       <workItem from="1673092380735" duration="10336000" />
       <workItem from="1673178666440" duration="10024000" />
-      <workItem from="1673246902000" duration="536000" />
+      <workItem from="1673246902000" duration="8279000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -405,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673247055655</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="entrada invitado local">
+      <created>1673247575284</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1673247575284</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +443,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UI" />
     <MESSAGE value="intentandoañadiricono" />
     <MESSAGE value="Iconos ahora funcionan en ElegirEscenario" />
     <MESSAGE value="Elegir Escenario eventlisteners" />
@@ -448,7 +467,8 @@
     <MESSAGE value="Ajustes de resolucion" />
     <MESSAGE value="Ranking empezado, y codigo de UI limpiado, funciones pasadas a PanelUtils" />
     <MESSAGE value="eliminado boton extra" />
-    <option name="LAST_COMMIT_MESSAGE" value="eliminado boton extra" />
+    <MESSAGE value="entrada invitado local" />
+    <option name="LAST_COMMIT_MESSAGE" value="entrada invitado local" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

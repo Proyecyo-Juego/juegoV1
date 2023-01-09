@@ -1,5 +1,6 @@
 package com.example.test.models.ui;
 
+import com.example.test.controllers.RankingManager;
 import com.example.test.controllers.SoundManager;
 import com.example.test.models.PeleaBasica;
 import com.example.test.models.escenario.Escenario;
@@ -68,11 +69,7 @@ public PeleaUI(JPanel cards) {
             }
             else {
                 System.out.println("Pelea terminada");
-                LogMSG.setText("Has ganado!");
-                SoundManager.SonidoVictoria();
-                JOptionPane.showMessageDialog(null, "Has ganado!");
-                CardLayout cl = (CardLayout) this.cards.getLayout();
-                cl.show(this.cards, "Home");
+                victoria();
             }
         }
     }
@@ -149,6 +146,16 @@ public PeleaUI(JPanel cards) {
         LogMSG.setText("Has perdido!");
         SoundManager.SonidoDerrota();
         JOptionPane.showMessageDialog(null, "Has perdido!");
+        CardLayout cl = (CardLayout) this.cards.getLayout();
+        cl.show(this.cards, "Home");
+    }
+
+    private void victoria(){
+        LogMSG.setText("Has ganado!");
+        SoundManager.SonidoVictoria();
+        JOptionPane.showMessageDialog(null, "Has ganado!");
+        //TODO: una vez tengamos el nombre del jugador, escribirlo en el ranking
+        RankingManager.getInstance().addScore("Invitado",PeleaBasica.getInstance().getCharacterModel().getName(),PeleaBasica.getInstance().getHeroHP());
         CardLayout cl = (CardLayout) this.cards.getLayout();
         cl.show(this.cards, "Home");
     }
