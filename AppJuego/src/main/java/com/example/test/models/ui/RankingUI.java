@@ -12,8 +12,6 @@ public class RankingUI {
     private ImagePanel imagePanel1;
     private JPanel panel1;
     private JButton ReturnButton;
-
-    private JList<RankingScore> RankingList;
     private JScrollPane ScrollPane;
 
     private BufferedImage backgroundImage;
@@ -28,22 +26,6 @@ public class RankingUI {
             cl.show(this.panel1.getParent(), "Home");
         });
 
-        renderer= new DefaultListCellRenderer() {
-            @Override
-            public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-                super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
-                JPanel panel = new JPanel();
-                panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-                RankingScore score = (RankingScore) value;
-
-                JLabel name = new JLabel(score.getName());
-                JLabel scoreLabel = new JLabel(String.valueOf(score.getScore())+" puntos");
-                panel.add(name);
-                panel.add(scoreLabel);
-                return panel;
-            }
-        };
-        RankingList.setCellRenderer(renderer);
     }
     private void createUIComponents() {
 

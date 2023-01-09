@@ -12,10 +12,16 @@ public class LoginUI {
     private JPasswordField passwordField;
     private JButton loginButton;
     private JButton registerButton;
+    private JButton InvitadoLocal;
 
     public LoginUI(JPanel mainframe){
         this.frame = mainframe;
         addComponents();
+        InvitadoLocal.addActionListener(e -> {
+            System.out.println("Invitado");
+            CardLayout cl = (CardLayout)frame.getLayout();
+            cl.show(frame, "Home");
+        });
     }
 
     public void addComponents(){
