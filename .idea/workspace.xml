@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Ajustes de resolucion">
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RegisterUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RegisterUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
@@ -104,6 +102,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46_bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46_bin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_01_2023_20_29_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_01_2023_20_29_[Changes]/shelved.patch" afterDir="false" />
@@ -148,6 +147,8 @@
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RegisterUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RegisterUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RegisterUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RegisterUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/customPanels/IconToImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/customPanels/IconToImage.java" afterDir="false" />
@@ -165,8 +166,6 @@
       <change beforePath="$PROJECT_DIR$/AppJuego/src/test/java/com/example/test/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/test/java/com/example/test/UsuarioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/test/java/com/example/test/UsuarioWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/test/java/com/example/test/UsuarioWebTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/static/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/static/js/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/static/js/jquery-3.6.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/static/js/jquery-3.6.0.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/static/js/jquery.singlePageNav.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/static/js/jquery.singlePageNav.min.js" afterDir="false" />
@@ -339,7 +338,7 @@
       <workItem from="1673092380735" duration="10336000" />
       <workItem from="1673178666440" duration="9979000" />
       <workItem from="1673235120886" duration="100000" />
-      <workItem from="1673235240648" duration="8994000" />
+      <workItem from="1673235240648" duration="9586000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>

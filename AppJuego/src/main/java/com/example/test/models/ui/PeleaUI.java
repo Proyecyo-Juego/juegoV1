@@ -26,7 +26,6 @@ public class PeleaUI {
     private JLabel Enemy1Name;
     private JButton DefendButton;
     private JButton AttackButton;
-    private JButton button1;
     private JLabel LogMSG;
 
     BufferedImage backgroundImage;
