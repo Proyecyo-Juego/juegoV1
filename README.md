@@ -1,12 +1,17 @@
 # Aplicación del juego basado en turnos con spring e hilos.
 
-## Introducción&#x20;
+Aplicacion creada por:
 
-Hemos creado nuestro videojuego usando IntelliJ IDEA para el desarrollo además de usar Figma para el prototipo de la interfaz gráfica. Hemos desarrollado el videojuego para un jugador, donde pelea contra la maquina por turnos y tiene varias opciones para elegir el movimiento que quiere hacer, ya sea atacar de distintas formas o defenderse.
+David César Moro Nieto
 
-## Quick Links
+Victor Navarro Carrillo
 
-{% content-ref url="overview/prototipo-figma.md" %}
-[prototipo-figma.md](overview/prototipo-figma.md)
-{% endcontent-ref %}
+Elena Megía Cañaveras
 
+Enlace al repositorio del juego: [https://github.com/Proyecyo-Juego/juegoV1](https://github.com/Proyecyo-Juego/juegoV1)
+
+Enlace al repositorio de la app movil: [https://github.com/Proyecyo-Juego/AppMovil](https://github.com/Proyecyo-Juego/AppMovil)
+
+Enlace al gitbook: [https://app.gitbook.com/o/2Wjsw7CSdAiLT20SB0ID/home](https://app.gitbook.com/o/2Wjsw7CSdAiLT20SB0ID/home)
+
+Enlace al repositorio de la página Web: [https://github.com/Proyecyo-Juego/PaginaWeb.git](https://github.com/Proyecyo-Juego/PaginaWeb.git)
