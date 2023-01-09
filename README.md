@@ -15,3 +15,5 @@ Enlace al repositorio de la app movil: [https://github.com/Proyecyo-Juego/AppMov
 Enlace al gitbook: [https://app.gitbook.com/o/2Wjsw7CSdAiLT20SB0ID/home](https://app.gitbook.com/o/2Wjsw7CSdAiLT20SB0ID/home)
 
 Enlace al repositorio de la página Web: [https://github.com/Proyecyo-Juego/PaginaWeb.git](https://github.com/Proyecyo-Juego/PaginaWeb.git)
+
+Enlace a la pagina Web: https://proyecyo-juego.github.io/PaginaWeb/#
