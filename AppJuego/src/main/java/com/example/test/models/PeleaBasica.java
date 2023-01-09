@@ -82,6 +82,22 @@ public class PeleaBasica {//Pelea basica para el modo de juego 1vs1
         }
         return null;
     }
+    public Void healHero(){
+        if (this.PlayerTurn == false){
+            UIController.getInstance().getPeleaUI().setLogMSG("No es tu turno!");
+            return null;
+        }
+        String message = Hero1.getName();
+        Random random = new Random();
+        int randomHeal = random.nextInt(10)+10;
+        message += "Healed for " + randomHeal + " health";
+        Hero1.setHealth(Hero1.getHealth()+randomHeal);
+        SoundManager.SonidoCurar();
+        PlayerTurn = false;
+        UIController.getInstance().getPeleaUI().updateHPbars();
+        UIController.getInstance().getPeleaUI().setLogMSG(message);
+        return null;
+    }
 
     private String getStringAttack(String message, Random random) {
         int randomDamageWord = random.nextInt(3)+1;

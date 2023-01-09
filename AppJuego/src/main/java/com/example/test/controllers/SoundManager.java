@@ -10,7 +10,7 @@ public class SoundManager {
     public static void SonidoAtaque(){
         String path;
         Random random = new Random();
-        int randomSound = random.nextInt(2)+1;
+        int randomSound = random.nextInt(3)+1;
 
         switch(randomSound){
             case 1:
@@ -19,8 +19,33 @@ public class SoundManager {
             case 2:
                 path = "AppJuego/Assets/sonidos/Ataque2.wav";
                 break;
+            case 3:
+                path = "AppJuego/Assets/sonidos/Ataque3.wav";
+                break;
             default:
                 path = "AppJuego/Assets/sonidos/Ataque1.wav";
+                break;
+        }
+
+        playSound(path);
+    }
+    public static void SonidoCurar(){
+        String path;
+        Random random = new Random();
+        int randomSound = random.nextInt(3)+1;
+
+        switch(randomSound){
+            case 1:
+                path = "AppJuego/Assets/sonidos/Curar1.wav";
+                break;
+            case 2:
+                path = "AppJuego/Assets/sonidos/Curar2.wav";
+                break;
+            case 3:
+                path = "AppJuego/Assets/sonidos/Curar3.wav";
+                break;
+            default:
+                path = "AppJuego/Assets/sonidos/Curar1.wav";
                 break;
         }
 

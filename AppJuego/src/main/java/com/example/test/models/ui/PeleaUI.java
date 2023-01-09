@@ -75,7 +75,24 @@ public PeleaUI(JPanel cards) {
     }
     private void clickDefend() {
     System.out.println("Defend");
-    //TODO: implementar
+        PeleaBasica.getInstance().healHero();
+        updateHPbars();
+        if(PeleaBasica.getInstance().getPlayerTurn()==false){
+            //Ataca la IA
+            if (PeleaBasica.getInstance().getEnemy1HP() > 0) {
+                System.out.println("Timer de contraataque enemigo iniciado");
+                javax.swing.Timer timer = new javax.swing.Timer(1000, e -> {
+                    PeleaBasica.getInstance().enemyTurn();
+                    updateHPbars();
+                });
+                timer.setRepeats(false);
+                timer.start();
+            }
+            else {
+                System.out.println("Pelea terminada");
+                victoria();
+            }
+        }
     }
 
     private void createUIComponents() {
