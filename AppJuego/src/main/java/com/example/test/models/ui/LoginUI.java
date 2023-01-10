@@ -50,6 +50,7 @@ public class LoginUI {
                 }
             } else {
                 JOptionPane.showMessageDialog(null, "Error de usuario y contraseña");
+                limpiar();
             }
 
         } catch (Exception e) {
@@ -71,7 +72,6 @@ public class LoginUI {
         loginButton.addActionListener(e -> {
             System.out.println("Login");
             validate();
-            //Login();
         });
 
         registerButton.addActionListener(e -> {
@@ -79,15 +79,9 @@ public class LoginUI {
         });
     }
 
-    //Ya no hace falte este metodo
-    public void Login() {
-        //TODO: login
-        String userName = usernameField.getText();
-        String password = passwordField.getText();
-
-
-        CardLayout cl = (CardLayout) frame.getLayout();
-        cl.show(frame, "Home");
+    public void limpiar() {
+        usernameField.setText(null);
+        passwordField.setText(null);
     }
 
     public void Register() {

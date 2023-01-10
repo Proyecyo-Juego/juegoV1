@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Ajustes de resolucion">
+      <change afterPath="$PROJECT_DIR$/AppJuego/Assets/mysql-connector-java-5.1.46-bin.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
@@ -167,12 +168,8 @@
       <change beforePath="$PROJECT_DIR$/AppJuego/src/test/java/com/example/test/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/test/java/com/example/test/UsuarioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/test/java/com/example/test/UsuarioWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/test/java/com/example/test/UsuarioWebTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/LoginUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/LoginUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RegisterUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RegisterUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/static/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/static/js/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/static/js/jquery-3.6.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/static/js/jquery-3.6.0.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/static/js/jquery.singlePageNav.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/static/js/jquery.singlePageNav.min.js" afterDir="false" />
@@ -235,34 +232,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/src/main/java/com/example/test&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/Assets/FondosEscenario&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;2ce28da0bf86bd3aa77c225aa6709158&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_directory_selection": "C:/Users/Vic/IntelliJIDEAProjects/juegoV1/AppJuego/src/main/java/com/example/test",
+    "last_opened_file_path": "C:/Users/VSPC-208291/IdeaProjects/juegoV1/AppJuego/Assets/mysql-connector-java-5.1.46-bin.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "2ce28da0bf86bd3aa77c225aa6709158",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vic\IntelliJIDEAProjects\juegoV1\AppJuego\Assets\FondosEscenario" />
@@ -600,6 +598,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="intentandoañadiricono" />
     <MESSAGE value="Iconos ahora funcionan en ElegirEscenario" />
     <MESSAGE value="Elegir Escenario eventlisteners" />
