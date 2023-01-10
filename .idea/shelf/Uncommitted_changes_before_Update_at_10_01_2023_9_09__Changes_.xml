@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_10_01_2023_9_09_[Changes]" date="1673338197251" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_01_2023_9_09_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 10/01/2023 9:09 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" />
+    <option name="AFTER_PATH" value="AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_01_2023_9_09_[Changes]/ElegirEscenario.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppJuego/target/classes/com/example/test/models/ui/UIHome.class" />
+    <option name="AFTER_PATH" value="AppJuego/target/classes/com/example/test/models/ui/UIHome.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_01_2023_9_09_[Changes]/UIHome.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" />
+    <option name="AFTER_PATH" value="AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_01_2023_9_09_[Changes]/ElegirPersonaje.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppJuego/target/classes/com/example/test/models/ui/LoginUI.class" />
+    <option name="AFTER_PATH" value="AppJuego/target/classes/com/example/test/models/ui/LoginUI.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_01_2023_9_09_[Changes]/LoginUI.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" />
+    <option name="AFTER_PATH" value="AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_01_2023_9_09_[Changes]/RankingUI.class" />
+  </binary>
+</changelist>

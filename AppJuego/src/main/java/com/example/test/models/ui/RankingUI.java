@@ -19,6 +19,8 @@ public class RankingUI {
 
     private RankingManager rankingManager;
 
+    private String usuarioActivo;
+
 
     public RankingUI() {
         rankingManager = RankingManager.getInstance();
@@ -67,6 +69,13 @@ public class RankingUI {
 
     public JPanel getPanel() {
         return panel1;
+    }
+
+    public void setUsuarioActivo(String usuarioActivo) {
+        this.usuarioActivo = usuarioActivo;
+    }
+    public String getUsuarioActivo() {
+        return usuarioActivo;
     }
 
 }

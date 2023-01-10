@@ -1,5 +1,7 @@
 package com.example.test.models.ui;
 
+import com.example.test.controllers.UIController;
+
 import javax.swing.*;
 import java.awt.*;
 import java.sql.*;
@@ -45,6 +47,7 @@ public class LoginUI {
             if (rs.next()) {
                 result = 1;
                 if (result == 1) {
+                    UIController.getInstance().getRankingUI().setUsuarioActivo(username);
                     CardLayout cl = (CardLayout) frame.getLayout();
                     cl.show(frame, "Home");
                 }
@@ -63,6 +66,7 @@ public class LoginUI {
         addComponents();
         InvitadoLocal.addActionListener(e -> {
             System.out.println("Invitado");
+            UIController.getInstance().getRankingUI().setUsuarioActivo("Invitado");
             CardLayout cl = (CardLayout) frame.getLayout();
             cl.show(frame, "Home");
         });
