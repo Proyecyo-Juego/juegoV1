@@ -32,7 +32,7 @@ public class RankingUI {
     }
 
     private void createUIComponents() {
-        imagePanel1 = new ImagePanel(new GridLayout(), PanelUtils.readScaledImage("AppJuego/Assets/FondosEscenario/AfterLifeRanking.jpg", 1280, 720));
+        imagePanel1 = new ImagePanel(new GridLayout(), PanelUtils.readScaledImageStream("/Assets/FondosEscenario/AfterLifeRanking.jpg", 1280, 720));
     }
 
     private JPanel CreateRankingPanel(int i, String PlayerName, String CharacterName, int score) {

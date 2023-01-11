@@ -2,7 +2,6 @@ package com.example.test.controllers;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
-import java.io.File;
 import java.util.Random;
 
 public class SoundManager {
@@ -14,16 +13,16 @@ public class SoundManager {
 
         switch(randomSound){
             case 1:
-                path = "AppJuego/Assets/sonidos/Ataque1.wav";
+                path = "/Assets/sonidos/Ataque1.wav";
                 break;
             case 2:
-                path = "AppJuego/Assets/sonidos/Ataque2.wav";
+                path = "/Assets/sonidos/Ataque2.wav";
                 break;
             case 3:
-                path = "AppJuego/Assets/sonidos/Ataque3.wav";
+                path = "/Assets/sonidos/Ataque3.wav";
                 break;
             default:
-                path = "AppJuego/Assets/sonidos/Ataque1.wav";
+                path = "/Assets/sonidos/Ataque1.wav";
                 break;
         }
 
@@ -36,16 +35,16 @@ public class SoundManager {
 
         switch(randomSound){
             case 1:
-                path = "AppJuego/Assets/sonidos/Curar1.wav";
+                path = "/Assets/sonidos/Curar1.wav";
                 break;
             case 2:
-                path = "AppJuego/Assets/sonidos/Curar2.wav";
+                path = "/Assets/sonidos/Curar2.wav";
                 break;
             case 3:
-                path = "AppJuego/Assets/sonidos/Curar3.wav";
+                path = "/Assets/sonidos/Curar3.wav";
                 break;
             default:
-                path = "AppJuego/Assets/sonidos/Curar1.wav";
+                path = "/Assets/sonidos/Curar1.wav";
                 break;
         }
 
@@ -53,18 +52,18 @@ public class SoundManager {
     }
 
     public static void SonidoDerrota(){
-        String path = "AppJuego/Assets/sonidos/Derrota.wav";
+        String path = "/Assets/sonidos/Derrota.wav";
         playSound(path);
     }
 
     public static void SonidoVictoria(){
-        String path = "AppJuego/Assets/sonidos/victoria.wav";
+        String path = "/Assets/sonidos/victoria.wav";
         playSound(path);
     }
 
     private static void playSound(String path) {
         try{
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(path).getAbsoluteFile());
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(SoundManager.class.getResourceAsStream(path));
             javax.sound.sampled.Clip clip = AudioSystem.getClip();
             clip.open(audioInputStream);
             clip.start();

@@ -11,8 +11,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 
 public class ElegirEscenario extends JFrame {
 
@@ -83,12 +84,13 @@ public class ElegirEscenario extends JFrame {
 
 
     private void createUIComponents() {
-        // TODO: place custom component creation code here
 
-        Imagen1 = PanelUtils.getIconLabel("AppJuego/Assets/FondosEscenario/Escenario1.jpg",400,300);
-        Imagen2 = PanelUtils.getIconLabel("AppJuego/Assets/FondosEscenario/Escenario2.jpg",400,300);
-        Imagen3 = PanelUtils.getIconLabel("AppJuego/Assets/FondosEscenario/Escenario3.jpg",400,300);
-        Imagen4 = PanelUtils.getIconLabel("AppJuego/Assets/FondosEscenario/Escenario4.jpg",400,300);
+        //Imagen1 = PanelUtils.getIconLabel(getURL("AppJuego/src/main/resources/Assets/FondosEscenario/Escenario1.jpg"),400,300);
+        //Imagen1 = PanelUtils.getIconLabel("/Escenario1.jpg",400,300);
+        Imagen1 = PanelUtils.getIconLabelStream("/Assets/FondosEscenario/Escenario1.jpg",400,300);
+        Imagen2 = PanelUtils.getIconLabelStream("/Assets/FondosEscenario/Escenario2.jpg",400,300);
+        Imagen3 = PanelUtils.getIconLabelStream("/Assets/FondosEscenario/Escenario3.jpg",400,300);
+        Imagen4 = PanelUtils.getIconLabelStream("/Assets/FondosEscenario/Escenario4.jpg",400,300);
 
     }
 
@@ -126,15 +128,18 @@ public class ElegirEscenario extends JFrame {
         return ElegirPanel;
     }
 
-    private JLabel getImageIcon(String path , int w, int h){
-        BufferedImage img = null;
-        try {
-            img = ImageIO.read(new File(path));
-        } catch (IOException e) {
+    public BufferedImage getBufferedImage(String path) {
+        BufferedImage image = null;
+        InputStream input = ElegirEscenario.class.getClassLoader().getResourceAsStream(path);
+        try{
+        image = ImageIO.read(input);
+        }catch (IOException e){
             e.printStackTrace();
         }
-        Image imgscaled = img.getScaledInstance(w, h, Image.SCALE_SMOOTH);
-
-        return new JLabel(new ImageIcon(imgscaled));
+        return image;
+    }
+    public URL getURL(String path){
+        URL url = ElegirEscenario.class.getResource(path);
+        return url;
     }
 }

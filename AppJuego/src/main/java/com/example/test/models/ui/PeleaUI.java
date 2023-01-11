@@ -95,8 +95,8 @@ public class PeleaUI {
         }
         imagePanel1 = new ImagePanel(new GridLayout(), backgroundImage);
 
-        Hero1Image = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
-        Enemy1Image = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Enemigos/Robot.jpg", 300, 400);
+        Hero1Image = PanelUtils.getIconLabelStream("/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);
+        Enemy1Image = PanelUtils.getIconLabelStream("/Assets/LogosPersonaje/Enemigos/Robot.jpg", 300, 400);
     }
 
     public void setBackgroundImage(BufferedImage backgroundImage) {
@@ -111,14 +111,15 @@ public class PeleaUI {
 
     public void updateEscenario() {
         initPelea();
+        /*
         BufferedImage img = null;
         try {
             img = ImageIO.read(new File(Escenario.getInstance().getBackgroundPath()));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Image imgscaled = img.getScaledInstance(1280, 720, Image.SCALE_SMOOTH);
-        setBackgroundImage(imgscaled);
+        Image imgscaled = img.getScaledInstance(1280, 720, Image.SCALE_SMOOTH);*/
+        setBackgroundImage(PanelUtils.readScaledImageStream(Escenario.getInstance().getBackgroundPath(), 1280, 720));
 
         Hero1Image.setIcon(PanelUtils.getImageIcon(PeleaBasica.getInstance().getCharacterModel().getIconPath(), 300, 400));
         Hero1Image.revalidate();

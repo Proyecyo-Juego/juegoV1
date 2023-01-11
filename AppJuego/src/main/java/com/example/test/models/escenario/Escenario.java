@@ -14,7 +14,7 @@ public class Escenario {
 
     public static Escenario getInstance() {
         if(me == null){
-            me = new Escenario("Ciudad", "AppJuego/Assets/FondosEscenario/Escenario1.jpg");
+            me = new Escenario("Ciudad", "/Assets/FondosEscenario/Escenario1.jpg");
         }
         return me;
     }
@@ -23,23 +23,23 @@ public class Escenario {
         switch (escena) {
             case "1":
             case "ciudad":
-                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario1.jpg", "ciudad");
+                getInstance().setEscenario("/Assets/FondosEscenario/Escenario1.jpg", "ciudad");
                 break;
             case "2":
             case "Arasaka":
-                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario2.jpg", "Arasaka");
+                getInstance().setEscenario("/Assets/FondosEscenario/Escenario2.jpg", "Arasaka");
                 break;
             case "3":
             case "HackerDen":
-                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario3.jpg", "HackerDen");
+                getInstance().setEscenario("/Assets/FondosEscenario/Escenario3.jpg", "HackerDen");
                 break;
             case "4":
             case "Alley":
-                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario4.jpg", "Alley");
+                getInstance().setEscenario("/Assets/FondosEscenario/Escenario4.jpg", "Alley");
                 break;
 
             default:
-                getInstance().setEscenario("AppJuego/Assets/FondosEscenario/Escenario1.jpg", "ciudad");
+                getInstance().setEscenario("/Assets/FondosEscenario/Escenario1.jpg", "ciudad");
                 break;
 
 

@@ -4,8 +4,8 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class PanelUtils {
 
@@ -28,10 +28,10 @@ public class PanelUtils {
         return bimage;
     }
 
-    public static Image readScaledImage(String path, int width, int height) {
+    public static Image readScaledImageStream(String path, int width, int height) {
         BufferedImage img = null;
     try {
-        img = ImageIO.read(new File(path));
+        img = ImageIO.read(PanelUtils.class.getResourceAsStream(path));
     } catch (IOException e) {
         e.printStackTrace();
     }
@@ -41,7 +41,7 @@ public class PanelUtils {
     public static ImageIcon getImageIcon(String path, int w, int h){
         BufferedImage img = null;
         try {
-            img = ImageIO.read(new File(path));
+            img = ImageIO.read(PanelUtils.class.getResourceAsStream(path));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -49,15 +49,23 @@ public class PanelUtils {
 
         return new ImageIcon(imgscaled);
     }
-    public static JLabel getIconLabel(String path , int w, int h){
+
+    public static JLabel getIconLabelStream(String path , int w, int h){
         BufferedImage img = null;
         try {
-            img = ImageIO.read(new File(path));
+            img = ImageIO.read(PanelUtils.class.getResourceAsStream(path));
+
         } catch (IOException e) {
             e.printStackTrace();
         }
         Image imgscaled = img.getScaledInstance(w, h, Image.SCALE_SMOOTH);
 
         return new JLabel(new ImageIcon(imgscaled));
+    }
+
+
+    public static URL getURL(String path){
+        System.out.println("Path: " + path);
+        return PanelUtils.class.getClassLoader().getResource(path);
     }
 }

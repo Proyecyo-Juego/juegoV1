@@ -1,6 +1,6 @@
 package com.example.test.models.ui;
 
-import com.example.test.controllers.UIController;
+import com.example.test.UIController;
 
 import javax.swing.*;
 import java.awt.*;

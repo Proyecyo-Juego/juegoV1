@@ -1,6 +1,6 @@
 package com.example.test.models.ui;
 
-import com.example.test.controllers.UIController;
+import com.example.test.UIController;
 import com.example.test.models.CharacterModel;
 import com.example.test.models.PeleaBasica;
 import com.example.test.models.ui.customPanels.PanelUtils;
@@ -84,10 +84,10 @@ public class ElegirPersonaje {
         }
         Image imgscaled = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
 
-        Imagen1 = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg",200,300);
-        Imagen2 = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg",200,300);
-        Imagen3 = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg",200,300);
-        Imagen4 = PanelUtils.getIconLabel("AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg",200,300);
+        Imagen1 = PanelUtils.getIconLabelStream("/Assets/LogosPersonaje/Protagonistas/David.jpg",200,300);
+        Imagen2 = PanelUtils.getIconLabelStream("/Assets/LogosPersonaje/Protagonistas/Lucy.jpg",200,300);
+        Imagen3 = PanelUtils.getIconLabelStream("/Assets/LogosPersonaje/Protagonistas/Maine.jpg",200,300);
+        Imagen4 = PanelUtils.getIconLabelStream("/Assets/LogosPersonaje/Protagonistas/rebecca.jpg",200,300);
 
     }
 
@@ -97,26 +97,26 @@ public class ElegirPersonaje {
             case 1:
                 //Personaje 1
                 heroe = new CharacterModel("David", 100L);
-                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg");
+                heroe.setIconPath("/Assets/LogosPersonaje/Protagonistas/David.jpg");
                 break;
             case 2:
                 //Personaje 2
                 heroe = new CharacterModel("Lucy", 100L);
-                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg");
+                heroe.setIconPath("/Assets/LogosPersonaje/Protagonistas/Lucy.jpg");
                 break;
             case 3:
                 //Personaje 3
                 heroe = new CharacterModel("Maine", 100L);
-                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg");
+                heroe.setIconPath("/Assets/LogosPersonaje/Protagonistas/Maine.jpg");
                 break;
             case 4:
                 //Personaje 4
                 heroe = new CharacterModel("Rebecca", 100L);
-                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg");
+                heroe.setIconPath("/Assets/LogosPersonaje/Protagonistas/rebecca.jpg");
                 break;
             default:
                 heroe = new CharacterModel("David", 100L);
-                heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg");
+                heroe.setIconPath("/Assets/LogosPersonaje/Protagonistas/David.jpg");
                 break;
         }
         //TODO guardar los personajes

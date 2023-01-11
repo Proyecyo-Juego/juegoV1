@@ -1,7 +1,7 @@
 package com.example.test.models;
 
 import com.example.test.controllers.SoundManager;
-import com.example.test.controllers.UIController;
+import com.example.test.UIController;
 
 import java.util.Random;
 
