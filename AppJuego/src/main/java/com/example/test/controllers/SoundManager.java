@@ -2,6 +2,8 @@ package com.example.test.controllers;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
+import java.io.BufferedInputStream;
+import java.io.InputStream;
 import java.util.Random;
 
 public class SoundManager {
@@ -63,7 +65,8 @@ public class SoundManager {
 
     private static void playSound(String path) {
         try{
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(SoundManager.class.getResourceAsStream(path));
+            InputStream bufferedIn = new BufferedInputStream(SoundManager.class.getResourceAsStream(path));
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(bufferedIn);
             javax.sound.sampled.Clip clip = AudioSystem.getClip();
             clip.open(audioInputStream);
             clip.start();
