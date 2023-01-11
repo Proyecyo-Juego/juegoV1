@@ -119,7 +119,7 @@ public class ElegirPersonaje {
                 heroe.setIconPath("AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg");
                 break;
         }
-        //TODO David, cuando te decidas en como vas a guardar los personajes, ponlo aqui
+        //TODO guardar los personajes
         PeleaBasica.getInstance().setCharacterModel(heroe); //para PeleaBasica
         //PlayerModel.getInstance().elegirPersonaje(heroe);
         CardLayout cl = (CardLayout)cards.getLayout();
