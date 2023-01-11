@@ -9,68 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Ajustes de resolucion">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JuegoV1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JuegoV1_jar/JuegoV1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="GetResourceAsStream implementado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/AfterLifeRanking.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/FondosEscenario/AfterLifeRanking.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/FondosEscenario/Escenario1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/FondosEscenario/Escenario2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/FondosEscenario/Escenario3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/FondosEscenario/Escenario4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/FondosEscenario/Escenario4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Enemigos/MaxTac.png" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/LogosPersonaje/Enemigos/MaxTac.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Enemigos/Robot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/LogosPersonaje/Enemigos/Robot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/David.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/LogosPersonaje/Protagonistas/David.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/Kiwi.png" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/LogosPersonaje/Protagonistas/Kiwi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/Lucy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/LogosPersonaje/Protagonistas/Lucy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/Maine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/LogosPersonaje/Protagonistas/Maine.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/LogosPersonaje/Protagonistas/rebecca.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/LogosPersonaje/Protagonistas/rebecca.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/mysql-connector-java-5.1.46-bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/mysql-connector-java-5.1.46-bin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/sonidos/Ataque1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/Ataque1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/sonidos/Ataque2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/Ataque2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/sonidos/Ataque3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/Ataque3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/sonidos/Curar1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/Curar1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/sonidos/Curar2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/Curar2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/sonidos/Curar3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/Curar3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/sonidos/Derrota.wav" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/Derrota.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Assets/sonidos/victoria.wav" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/victoria.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Datos/Ranking/datosRanking.ser" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/Datos/Ranking/datosRanking.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/SoundManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/SoundManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/UIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/UIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/PeleaBasica.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/PeleaBasica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/escenario/Escenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/escenario/Escenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/escenario/backgrounds/ciudad8bit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirEscenario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirPersonaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/ElegirPersonaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/LoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/LoginUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/PeleaUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/UIHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/customPanels/IconToImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/customPanels/PanelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/customPanels/PanelUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/SoundManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/SoundManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/UIController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PeleaBasica.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/PeleaBasica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/escenario/Escenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/escenario/Escenario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirEscenario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/ElegirPersonaje.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/LoginUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/LoginUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/PeleaUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/UIHome$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/customPanels/IconToImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/customPanels/PanelUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/customPanels/PanelUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/TestApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/UsuarioServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/UsuarioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/test-classes/com/example/test/UsuarioWebTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.JuegoV1.jar">
+  <component name="RunManager">
     <configuration name="JuegoV1.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/JuegoV1_jar/JuegoV1.jar" />
       <method v="2" />
@@ -486,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673247575284</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="GetResourceAsStream implementado">
+      <created>1673480659395</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1673480659395</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="intentandoañadiricono" />
     <MESSAGE value="Iconos ahora funcionan en ElegirEscenario" />
     <MESSAGE value="Elegir Escenario eventlisteners" />
     <MESSAGE value="Dispose arreglado" />
@@ -530,7 +485,8 @@
     <MESSAGE value="Ranking empezado, y codigo de UI limpiado, funciones pasadas a PanelUtils" />
     <MESSAGE value="eliminado boton extra" />
     <MESSAGE value="entrada invitado local" />
-    <option name="LAST_COMMIT_MESSAGE" value="entrada invitado local" />
+    <MESSAGE value="GetResourceAsStream implementado" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetResourceAsStream implementado" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

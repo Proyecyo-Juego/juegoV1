@@ -7,12 +7,9 @@ import com.example.test.models.escenario.Escenario;
 import com.example.test.models.ui.customPanels.ImagePanel;
 import com.example.test.models.ui.customPanels.PanelUtils;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 
 public class PeleaUI {
 
@@ -88,11 +85,9 @@ public class PeleaUI {
 
     private void createUIComponents() {
 
-        try {
-            backgroundImage = ImageIO.read(new File("AppJuego/fondo.png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+        backgroundImage = PanelUtils.toBufferedImage(PanelUtils.readScaledImageStream("/Assets/FondosEscenario/Escenario1.jpg", 1280, 720));
+
         imagePanel1 = new ImagePanel(new GridLayout(), backgroundImage);
 
         Hero1Image = PanelUtils.getIconLabelStream("/Assets/LogosPersonaje/Protagonistas/David.jpg", 300, 400);

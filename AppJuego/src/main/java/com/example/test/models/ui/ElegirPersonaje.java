@@ -5,16 +5,12 @@ import com.example.test.models.CharacterModel;
 import com.example.test.models.PeleaBasica;
 import com.example.test.models.ui.customPanels.PanelUtils;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 
 public class ElegirPersonaje {
 
@@ -76,13 +72,6 @@ public class ElegirPersonaje {
     }
 
     private void createUIComponents() {
-        BufferedImage img = null;
-        try {
-            img = ImageIO.read(new File("AppJuego/David.jpg"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Image imgscaled = img.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
 
         Imagen1 = PanelUtils.getIconLabelStream("/Assets/LogosPersonaje/Protagonistas/David.jpg",200,300);
         Imagen2 = PanelUtils.getIconLabelStream("/Assets/LogosPersonaje/Protagonistas/Lucy.jpg",200,300);
