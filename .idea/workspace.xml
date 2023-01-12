@@ -9,10 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Ranking ahora funciona en .jar">
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Ranking ahora escribe los datos a el mismo directorio donde esta el .jar, haciendolo compatible con el despliegue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/RankingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/RankingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/RankingManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/RankingManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/models/ui/RankingUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/src/main/resources/Datos/Ranking/datosRanking.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/Datos/Ranking/datosRanking.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/models/ui/RankingUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JuegoV1_jar/JuegoV1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JuegoV1_jar/JuegoV1.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +193,7 @@
       <workItem from="1673383255463" duration="1527000" />
       <workItem from="1673458876364" duration="884000" />
       <workItem from="1673481197106" duration="340000" />
-      <workItem from="1673517678975" duration="5454000" />
+      <workItem from="1673517678975" duration="6342000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -458,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673518335558</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Ranking ahora escribe los datos a el mismo directorio donde esta el .jar, haciendolo compatible con el despliegue">
+      <created>1673538645009</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1673538645009</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +487,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Por primera vez cardlayout empieza a funcionar, ahora cambia UIs utilizando la misma ventana" />
     <MESSAGE value="Todo estandardizado para cardlayout" />
     <MESSAGE value="Limpieza del codigo de UI" />
     <MESSAGE value="PeleaUI empezada" />
@@ -502,7 +511,8 @@
     <MESSAGE value=".jar ahora funciona, pero el audio no" />
     <MESSAGE value="Audio arreglado, solo falta el ranking" />
     <MESSAGE value="Ranking ahora funciona en .jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ranking ahora funciona en .jar" />
+    <MESSAGE value="Ranking ahora escribe los datos a el mismo directorio donde esta el .jar, haciendolo compatible con el despliegue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ranking ahora escribe los datos a el mismo directorio donde esta el .jar, haciendolo compatible con el despliegue" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
