@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Audio arreglado, solo falta el ranking">
+    <list default="true" id="d89247fd-d6e2-49a0-9626-258d5a61be7b" name="Changes" comment="Ranking ahora funciona en .jar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/Datos/Ranking/datosRanking.ser" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/resources/Datos/Ranking/datosRanking.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/RankingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/src/main/java/com/example/test/controllers/RankingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/SoundManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/SoundManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/RankingManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/AppJuego/target/classes/com/example/test/controllers/RankingManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +120,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.JuegoV1.jar">
+  <component name="RunManager">
     <configuration name="JuegoV1.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/JuegoV1_jar/JuegoV1.jar" />
       <method v="2" />
@@ -191,7 +190,7 @@
       <workItem from="1673383255463" duration="1527000" />
       <workItem from="1673458876364" duration="884000" />
       <workItem from="1673481197106" duration="340000" />
-      <workItem from="1673517678975" duration="457000" />
+      <workItem from="1673517678975" duration="5454000" />
     </task>
     <task id="LOCAL-00001" summary="introduciendo ranking">
       <created>1670672662062</created>
@@ -452,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673481449133</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Ranking ahora funciona en .jar">
+      <created>1673518335558</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1673518335558</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +477,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Dispose arreglado" />
     <MESSAGE value="Por primera vez cardlayout empieza a funcionar, ahora cambia UIs utilizando la misma ventana" />
     <MESSAGE value="Todo estandardizado para cardlayout" />
     <MESSAGE value="Limpieza del codigo de UI" />
@@ -496,7 +501,8 @@
     <MESSAGE value="GetResourceAsStream implementado" />
     <MESSAGE value=".jar ahora funciona, pero el audio no" />
     <MESSAGE value="Audio arreglado, solo falta el ranking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Audio arreglado, solo falta el ranking" />
+    <MESSAGE value="Ranking ahora funciona en .jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ranking ahora funciona en .jar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
