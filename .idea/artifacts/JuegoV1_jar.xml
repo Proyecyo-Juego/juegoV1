@@ -94,6 +94,7 @@
       <element id="file-copy" path="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/Derrota.wav" />
       <element id="file-copy" path="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/Curar3.wav" />
       <element id="file-copy" path="$PROJECT_DIR$/AppJuego/src/main/resources/Assets/sonidos/victoria.wav" />
+      <element id="file-copy" path="$PROJECT_DIR$/AppJuego/src/main/resources/Datos/Ranking/datosRanking.ser" />
     </root>
   </artifact>
 </component>

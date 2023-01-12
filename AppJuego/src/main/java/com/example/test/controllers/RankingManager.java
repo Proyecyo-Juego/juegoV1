@@ -3,7 +3,9 @@ package com.example.test.controllers;
 import com.example.test.models.ranking.RankingList;
 import com.example.test.models.ranking.RankingScore;
 
-import java.io.FileInputStream;
+import java.io.File;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 
 public class RankingManager {
@@ -38,11 +40,11 @@ public class RankingManager {
     private RankingList loadScores() {
         RankingList temp = null;
         try {
-            FileInputStream fileIn = new FileInputStream("AppJuego/Datos/Ranking/datosRanking.ser");
-            java.io.ObjectInputStream in = new java.io.ObjectInputStream(fileIn);
+            InputStream file = RankingManager.class.getResourceAsStream("/Datos/Ranking/datosRanking.ser");
+            java.io.ObjectInputStream in = new java.io.ObjectInputStream(file);
             temp = (RankingList) in.readObject();
             in.close();
-            fileIn.close();
+            file.close();
         } catch (Exception e) {
             temp = new RankingList(new ArrayList<>());
 
@@ -52,7 +54,8 @@ public class RankingManager {
 
     public void saveScores() {
         try {
-            java.io.FileOutputStream fileOut = new java.io.FileOutputStream("AppJuego/Datos/Ranking/datosRanking.ser");
+            URL url = RankingManager.class.getResource("/Datos/Ranking/datosRanking.ser");
+            java.io.FileOutputStream fileOut = new java.io.FileOutputStream(new File(url.toURI()));
             java.io.ObjectOutputStream out = new java.io.ObjectOutputStream(fileOut);
             out.writeObject(rankingList);
             out.close();
